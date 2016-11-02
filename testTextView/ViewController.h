@@ -10,6 +10,6 @@
 
 @interface ViewController : UIViewController
 
-
+//@property (atomic)  BOOL bFrontFinish;
 @end
 
