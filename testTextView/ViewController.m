@@ -81,8 +81,8 @@
 - (IBAction)clickedBtn3:(id)sender {
     dispatch_async(dispatch_get_global_queue(0, 0), ^{
         
-        
-        int  nAveCountAline=[self getAveCountAline:self.textView1];
+        int nLineCountAPage=[self getLineCountAPage:self.textView1];//每月显示多少行
+        int nAveCountAline=[self getAveCountAline:self.textView1];//每行平均多少字符
         int nHalfAveCountAline=nAveCountAline/2;
         
         NSDictionary *dict = @{NSForegroundColorAttributeName: [UIColor redColor]};
@@ -90,6 +90,7 @@
         // UITextPosition *beginning = tv.beginningOfDocument;
         int nIndex=0,nFrontIndex=0,nLastIndex = 0;
         int nCount=0,nFrontCount=0,nLastCount = 0;
+        int nLineIndex=0;//行索引
         BOOL bFrontFinish=NO;//是否完成前半行扫描
         NSRange rangeFront=NSMakeRange(0, 0),rangeLast=NSMakeRange(0, 0);
         nFrontCount=nHalfAveCountAline;
@@ -101,9 +102,20 @@
                     //扫描结束
                     break;
                 }
+                
+         
+                
                 //前半行
                 NSLog(@"rangeFront=%d,%d",nFrontIndex,nFrontCount);
                 rangeFront=NSMakeRange(nFrontIndex, nFrontCount);
+                
+                nLineIndex++;//行+1
+                if(nLineIndex>1&&(nLineIndex%nLineCountAPage==1)){
+                    //需要翻页了
+                     //    [_textView1 scrollRangeToVisible:rangeFront];
+                    [_textView1 scrollRangeToVisible:NSMakeRange(32+10, 1)];
+                    //[_textView1 scrollRangeToVisible:NSMakeRange((nLineIndex)*nLineCountAPage*nAveCountAline+2, 1)];
+                }
                 dispatch_async(dispatch_get_main_queue(), ^{
                     [_textView1.textStorage beginEditing];//必须在主线程执行
                     [_textView1.textStorage removeAttribute:NSForegroundColorAttributeName range:rangeLast];//清掉后半行的颜色
@@ -187,7 +199,7 @@
         NSLog(@"i=%d %@",i,[tv.text substringWithRange:range]);
         CGRect rect0 = ((UITextSelectionRect *)arr[0]).rect;
         CGRect rect2 = ((UITextSelectionRect *)arr[2]).rect;
-        if(rect0.origin.y+rect0.size.height>tv.contentSize.height){
+        if(rect0.origin.y+rect0.size.height>tv.bounds.size.height){
             //此行已经超出此页
             break;
         }
@@ -196,10 +208,10 @@
             lineCountAPage++;
         }
     }
-    return lineCountAPage;
+    return lineCountAPage-1;
 }
-//检测第nIndex个字符是否是最后一行
-- (int)isLastCharacterInLine:(UITextView*) tv index:(int)nIndex{
+//检测第nIndex个字符是否是此行最后一个字符
+- (BOOL)isLastCharacterInLine:(UITextView*) tv index:(int)nIndex{
     NSTimeInterval time1=[NSDate timeIntervalSinceReferenceDate];
     UITextPosition *beginning = tv.beginningOfDocument;
     NSRange range=NSMakeRange(nIndex, 1);
@@ -214,14 +226,38 @@
     });
     NSTimeInterval time4=[NSDate timeIntervalSinceReferenceDate];
     NSLog(@"selectionRectsForRange花费%f秒",time4-time3);
-    NSLog(@"i=%d %@",nIndex,[tv.text substringWithRange:range]);
+    
     
     CGRect rect0 = ((UITextSelectionRect *)arr[0]).rect;
     CGRect rect2 = ((UITextSelectionRect *)arr[2]).rect;
-    
+    NSLog(@"i=%d %@ %f %f",nIndex,[tv.text substringWithRange:range],rect0.size.width,rect0.size.height);
     NSTimeInterval time2=[NSDate timeIntervalSinceReferenceDate];
     NSLog(@"isLastCharacterInLine花费%f秒",time2-time1);
     return (rect2.origin.y-rect0.origin.y>1);
 }
-
+////检测第nIndex个字符是否是此也最后一行
+//- (BOOL)isLastLineInPage:(UITextView*) tv index:(int)nIndex
+//{
+//    int lineCountAPage=1;
+//    UITextPosition *beginning = tv.beginningOfDocument;
+//    //for (int i=0; i<tv.text.length; i++) {
+//        NSRange range=NSMakeRange(nIndex, 1);
+//        UITextPosition *start = [tv positionFromPosition:beginning offset:range.location];
+//        UITextPosition *end = [tv positionFromPosition:start offset:range.length];
+//        UITextRange *textRange = [tv textRangeFromPosition:start toPosition:end];
+//        NSArray* arr=[tv selectionRectsForRange:textRange];
+//        NSLog(@"i=%d %@",i,[tv.text substringWithRange:range]);
+//        CGRect rect0 = ((UITextSelectionRect *)arr[0]).rect;
+//        CGRect rect2 = ((UITextSelectionRect *)arr[2]).rect;
+//        if(rect0.origin.y+rect0.size.height>tv.contentSize.height){
+//            //此行已经超出此页
+//            break;
+//        }
+//        else if (rect2.origin.y-rect0.origin.y>1) {
+//            //此行的最后一个字符
+//            lineCountAPage++;
+//        }
+//    //}
+//    return lineCountAPage;
+//}
 @end
