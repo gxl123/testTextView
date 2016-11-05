@@ -13,6 +13,23 @@
 		6D2161561DC8C9EB00015167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D2161541DC8C9EB00015167 /* Main.storyboard */; };
 		6D2161581DC8C9EB00015167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D2161571DC8C9EB00015167 /* Assets.xcassets */; };
 		6D21615B1DC8C9EB00015167 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D2161591DC8C9EB00015167 /* LaunchScreen.storyboard */; };
+		C83DBC5F1DCD711A00CF29C0 /* DEMOFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C83DBC501DCD711A00CF29C0 /* DEMOFirstViewController.m */; };
+		C83DBC601DCD711A00CF29C0 /* DEMOLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C83DBC521DCD711A00CF29C0 /* DEMOLeftMenuViewController.m */; };
+		C83DBC611DCD711A00CF29C0 /* DEMORightMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C83DBC541DCD711A00CF29C0 /* DEMORightMenuViewController.m */; };
+		C83DBC621DCD711A00CF29C0 /* DEMOSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C83DBC561DCD711A00CF29C0 /* DEMOSecondViewController.m */; };
+		C83DBC631DCD711A00CF29C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C83DBC571DCD711A00CF29C0 /* Images.xcassets */; };
+		C83DBC641DCD711A00CF29C0 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = C83DBC5A1DCD711A00CF29C0 /* RECommonFunctions.m */; };
+		C83DBC651DCD711A00CF29C0 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C83DBC5C1DCD711A00CF29C0 /* RESideMenu.m */; };
+		C83DBC661DCD711A00CF29C0 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C83DBC5E1DCD711A00CF29C0 /* UIViewController+RESideMenu.m */; };
+		C83DBC691DCD726900CF29C0 /* ReadTrainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C83DBC681DCD726900CF29C0 /* ReadTrainTableViewController.m */; };
+		C83DBC6C1DCD734C00CF29C0 /* AboutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C83DBC6B1DCD734C00CF29C0 /* AboutTableViewController.m */; };
+		C83DBC731DCD755D00CF29C0 /* iOSLogEngine.mm in Sources */ = {isa = PBXBuildFile; fileRef = C83DBC711DCD755D00CF29C0 /* iOSLogEngine.mm */; };
+		C83DBC761DCD75AE00CF29C0 /* ToolCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = C83DBC751DCD75AE00CF29C0 /* ToolCommon.m */; };
+		C83DBC791DCD7CD900CF29C0 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = C83DBC781DCD7CD900CF29C0 /* profile.png */; };
+		C83DBC7C1DCD84EE00CF29C0 /* UICommon.m in Sources */ = {isa = PBXBuildFile; fileRef = C83DBC7B1DCD84EE00CF29C0 /* UICommon.m */; };
+		C83DBC7F1DCD855600CF29C0 /* home_icon_cebianlan_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = C83DBC7D1DCD855500CF29C0 /* home_icon_cebianlan_normal.png */; };
+		C83DBC801DCD855600CF29C0 /* home_icon_cebianlan_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = C83DBC7E1DCD855500CF29C0 /* home_icon_cebianlan_selected.png */; };
+		C83DBC821DCDBE0400CF29C0 /* home_icon_cebianlan_selecte.png in Resources */ = {isa = PBXBuildFile; fileRef = C83DBC811DCDBE0400CF29C0 /* home_icon_cebianlan_selecte.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +43,38 @@
 		6D2161571DC8C9EB00015167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D21615A1DC8C9EB00015167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D21615C1DC8C9EB00015167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C83DBC4F1DCD711A00CF29C0 /* DEMOFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOFirstViewController.h; sourceTree = "<group>"; };
+		C83DBC501DCD711A00CF29C0 /* DEMOFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOFirstViewController.m; sourceTree = "<group>"; };
+		C83DBC511DCD711A00CF29C0 /* DEMOLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOLeftMenuViewController.h; sourceTree = "<group>"; };
+		C83DBC521DCD711A00CF29C0 /* DEMOLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOLeftMenuViewController.m; sourceTree = "<group>"; };
+		C83DBC531DCD711A00CF29C0 /* DEMORightMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMORightMenuViewController.h; sourceTree = "<group>"; };
+		C83DBC541DCD711A00CF29C0 /* DEMORightMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMORightMenuViewController.m; sourceTree = "<group>"; };
+		C83DBC551DCD711A00CF29C0 /* DEMOSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOSecondViewController.h; sourceTree = "<group>"; };
+		C83DBC561DCD711A00CF29C0 /* DEMOSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOSecondViewController.m; sourceTree = "<group>"; };
+		C83DBC571DCD711A00CF29C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C83DBC591DCD711A00CF29C0 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		C83DBC5A1DCD711A00CF29C0 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		C83DBC5B1DCD711A00CF29C0 /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		C83DBC5C1DCD711A00CF29C0 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		C83DBC5D1DCD711A00CF29C0 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		C83DBC5E1DCD711A00CF29C0 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		C83DBC671DCD726900CF29C0 /* ReadTrainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadTrainTableViewController.h; sourceTree = "<group>"; };
+		C83DBC681DCD726900CF29C0 /* ReadTrainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadTrainTableViewController.m; sourceTree = "<group>"; };
+		C83DBC6A1DCD734C00CF29C0 /* AboutTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutTableViewController.h; sourceTree = "<group>"; };
+		C83DBC6B1DCD734C00CF29C0 /* AboutTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutTableViewController.m; sourceTree = "<group>"; };
+		C83DBC6E1DCD755D00CF29C0 /* GLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLog.h; sourceTree = "<group>"; };
+		C83DBC6F1DCD755D00CF29C0 /* GLogZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLogZone.h; sourceTree = "<group>"; };
+		C83DBC701DCD755D00CF29C0 /* iOSLogEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSLogEngine.h; sourceTree = "<group>"; };
+		C83DBC711DCD755D00CF29C0 /* iOSLogEngine.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = iOSLogEngine.mm; sourceTree = "<group>"; };
+		C83DBC721DCD755D00CF29C0 /* stdafxLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafxLog.h; sourceTree = "<group>"; };
+		C83DBC741DCD75AE00CF29C0 /* ToolCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolCommon.h; sourceTree = "<group>"; };
+		C83DBC751DCD75AE00CF29C0 /* ToolCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolCommon.m; sourceTree = "<group>"; };
+		C83DBC781DCD7CD900CF29C0 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		C83DBC7A1DCD84EE00CF29C0 /* UICommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICommon.h; sourceTree = "<group>"; };
+		C83DBC7B1DCD84EE00CF29C0 /* UICommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICommon.m; sourceTree = "<group>"; };
+		C83DBC7D1DCD855500CF29C0 /* home_icon_cebianlan_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_icon_cebianlan_normal.png; sourceTree = "<group>"; };
+		C83DBC7E1DCD855500CF29C0 /* home_icon_cebianlan_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_icon_cebianlan_selected.png; sourceTree = "<group>"; };
+		C83DBC811DCDBE0400CF29C0 /* home_icon_cebianlan_selecte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_icon_cebianlan_selecte.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +107,11 @@
 		6D21614A1DC8C9EB00015167 /* testTextView */ = {
 			isa = PBXGroup;
 			children = (
+				C83DBC7A1DCD84EE00CF29C0 /* UICommon.h */,
+				C83DBC7B1DCD84EE00CF29C0 /* UICommon.m */,
+				C83DBC771DCD7CD900CF29C0 /* Images */,
+				C83DBC6D1DCD755D00CF29C0 /* LogEngine */,
+				C83DBC4E1DCD711A00CF29C0 /* SideMenu */,
 				6D21614E1DC8C9EB00015167 /* AppDelegate.h */,
 				6D21614F1DC8C9EB00015167 /* AppDelegate.m */,
 				6D2161511DC8C9EB00015167 /* ViewController.h */,
@@ -67,6 +121,12 @@
 				6D2161591DC8C9EB00015167 /* LaunchScreen.storyboard */,
 				6D21615C1DC8C9EB00015167 /* Info.plist */,
 				6D21614B1DC8C9EB00015167 /* Supporting Files */,
+				C83DBC671DCD726900CF29C0 /* ReadTrainTableViewController.h */,
+				C83DBC681DCD726900CF29C0 /* ReadTrainTableViewController.m */,
+				C83DBC6A1DCD734C00CF29C0 /* AboutTableViewController.h */,
+				C83DBC6B1DCD734C00CF29C0 /* AboutTableViewController.m */,
+				C83DBC741DCD75AE00CF29C0 /* ToolCommon.h */,
+				C83DBC751DCD75AE00CF29C0 /* ToolCommon.m */,
 			);
 			path = testTextView;
 			sourceTree = "<group>";
@@ -77,6 +137,59 @@
 				6D21614C1DC8C9EB00015167 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C83DBC4E1DCD711A00CF29C0 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C83DBC4F1DCD711A00CF29C0 /* DEMOFirstViewController.h */,
+				C83DBC501DCD711A00CF29C0 /* DEMOFirstViewController.m */,
+				C83DBC511DCD711A00CF29C0 /* DEMOLeftMenuViewController.h */,
+				C83DBC521DCD711A00CF29C0 /* DEMOLeftMenuViewController.m */,
+				C83DBC531DCD711A00CF29C0 /* DEMORightMenuViewController.h */,
+				C83DBC541DCD711A00CF29C0 /* DEMORightMenuViewController.m */,
+				C83DBC551DCD711A00CF29C0 /* DEMOSecondViewController.h */,
+				C83DBC561DCD711A00CF29C0 /* DEMOSecondViewController.m */,
+				C83DBC571DCD711A00CF29C0 /* Images.xcassets */,
+				C83DBC581DCD711A00CF29C0 /* RESideMenu */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		C83DBC581DCD711A00CF29C0 /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C83DBC591DCD711A00CF29C0 /* RECommonFunctions.h */,
+				C83DBC5A1DCD711A00CF29C0 /* RECommonFunctions.m */,
+				C83DBC5B1DCD711A00CF29C0 /* RESideMenu.h */,
+				C83DBC5C1DCD711A00CF29C0 /* RESideMenu.m */,
+				C83DBC5D1DCD711A00CF29C0 /* UIViewController+RESideMenu.h */,
+				C83DBC5E1DCD711A00CF29C0 /* UIViewController+RESideMenu.m */,
+			);
+			path = RESideMenu;
+			sourceTree = "<group>";
+		};
+		C83DBC6D1DCD755D00CF29C0 /* LogEngine */ = {
+			isa = PBXGroup;
+			children = (
+				C83DBC6E1DCD755D00CF29C0 /* GLog.h */,
+				C83DBC6F1DCD755D00CF29C0 /* GLogZone.h */,
+				C83DBC701DCD755D00CF29C0 /* iOSLogEngine.h */,
+				C83DBC711DCD755D00CF29C0 /* iOSLogEngine.mm */,
+				C83DBC721DCD755D00CF29C0 /* stdafxLog.h */,
+			);
+			path = LogEngine;
+			sourceTree = "<group>";
+		};
+		C83DBC771DCD7CD900CF29C0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C83DBC811DCDBE0400CF29C0 /* home_icon_cebianlan_selecte.png */,
+				C83DBC7D1DCD855500CF29C0 /* home_icon_cebianlan_normal.png */,
+				C83DBC7E1DCD855500CF29C0 /* home_icon_cebianlan_selected.png */,
+				C83DBC781DCD7CD900CF29C0 /* profile.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +252,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D21615B1DC8C9EB00015167 /* LaunchScreen.storyboard in Resources */,
+				C83DBC631DCD711A00CF29C0 /* Images.xcassets in Resources */,
+				C83DBC801DCD855600CF29C0 /* home_icon_cebianlan_selected.png in Resources */,
+				C83DBC821DCDBE0400CF29C0 /* home_icon_cebianlan_selecte.png in Resources */,
+				C83DBC7F1DCD855600CF29C0 /* home_icon_cebianlan_normal.png in Resources */,
 				6D2161581DC8C9EB00015167 /* Assets.xcassets in Resources */,
+				C83DBC791DCD7CD900CF29C0 /* profile.png in Resources */,
 				6D2161561DC8C9EB00015167 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,9 +269,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C83DBC731DCD755D00CF29C0 /* iOSLogEngine.mm in Sources */,
+				C83DBC691DCD726900CF29C0 /* ReadTrainTableViewController.m in Sources */,
+				C83DBC601DCD711A00CF29C0 /* DEMOLeftMenuViewController.m in Sources */,
+				C83DBC7C1DCD84EE00CF29C0 /* UICommon.m in Sources */,
+				C83DBC5F1DCD711A00CF29C0 /* DEMOFirstViewController.m in Sources */,
 				6D2161531DC8C9EB00015167 /* ViewController.m in Sources */,
 				6D2161501DC8C9EB00015167 /* AppDelegate.m in Sources */,
+				C83DBC621DCD711A00CF29C0 /* DEMOSecondViewController.m in Sources */,
 				6D21614D1DC8C9EB00015167 /* main.m in Sources */,
+				C83DBC6C1DCD734C00CF29C0 /* AboutTableViewController.m in Sources */,
+				C83DBC611DCD711A00CF29C0 /* DEMORightMenuViewController.m in Sources */,
+				C83DBC661DCD711A00CF29C0 /* UIViewController+RESideMenu.m in Sources */,
+				C83DBC651DCD711A00CF29C0 /* RESideMenu.m in Sources */,
+				C83DBC761DCD75AE00CF29C0 /* ToolCommon.m in Sources */,
+				C83DBC641DCD711A00CF29C0 /* RECommonFunctions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +442,7 @@
 				6D2161611DC8C9EB00015167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

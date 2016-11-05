@@ -7,8 +7,12 @@
 //
 
 #import "AppDelegate.h"
-
-@interface AppDelegate ()
+#import "DEMOLeftMenuViewController.h"
+#import "ReadTrainTableViewController.h"
+#import "ToolCommon.h"
+@interface AppDelegate (){
+    UIViewController* _rootViewController;
+}
 
 @end
 
@@ -16,7 +20,25 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //g_dwGLogZoneSeed = tAll_MSK;
+    
+    _rootViewController=[[ReadTrainTableViewController alloc]initWithStyle:UITableViewStylePlain];
+    // 加入侧滑功能
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:_rootViewController];
+    DEMOLeftMenuViewController *leftMenuViewController = [[DEMOLeftMenuViewController alloc] init];
+    RESideMenu *sideMenuViewController = [[RESideMenu alloc] initWithContentViewController:navigationController
+                                                                    leftMenuViewController:leftMenuViewController
+                                                                   rightMenuViewController:nil];//去掉右边滑动
+    //sideMenuViewController.backgroundImage = [UIImage imageNamed:@"Stars"];
+    sideMenuViewController.menuPreferredStatusBarStyle = 1; // UIStatusBarStyleLightContent
+    sideMenuViewController.delegate = self;
+    sideMenuViewController.contentViewShadowColor = [UIColor blackColor];
+    sideMenuViewController.contentViewShadowOffset = CGSizeMake(0, 0);
+    sideMenuViewController.contentViewShadowOpacity = 0.6;
+    sideMenuViewController.contentViewShadowRadius = 12;
+    sideMenuViewController.contentViewShadowEnabled = YES;
+    self.window.rootViewController = sideMenuViewController;
+    
     return YES;
 }
 
@@ -47,5 +69,26 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+#pragma mark -
+#pragma mark RESideMenu Delegate
 
+- (void)sideMenu:(RESideMenu *)sideMenu willShowMenuViewController:(UIViewController *)menuViewController
+{
+    //GLog(tOther,(@"willShowMenuViewController: %@", NSStringFromClass([menuViewController class])));
+}
+
+- (void)sideMenu:(RESideMenu *)sideMenu didShowMenuViewController:(UIViewController *)menuViewController
+{
+    //GLog(tOther,(@"didShowMenuViewController: %@", NSStringFromClass([menuViewController class])));
+}
+
+- (void)sideMenu:(RESideMenu *)sideMenu willHideMenuViewController:(UIViewController *)menuViewController
+{
+    //GLog(tOther,(@"willHideMenuViewController: %@", NSStringFromClass([menuViewController class])));
+}
+
+- (void)sideMenu:(RESideMenu *)sideMenu didHideMenuViewController:(UIViewController *)menuViewController
+{
+    //GLog(tOther,(@"didHideMenuViewController: %@", NSStringFromClass([menuViewController class])));
+}
 @end
