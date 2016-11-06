@@ -69,6 +69,29 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+#pragma mark - SQLite Methods
+
+- (void)openDatabase
+{
+    NSArray *documentsPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *databaseFilePath = [[documentsPaths objectAtIndex:0] stringByAppendingPathComponent:@"database.sqlite"];
+    
+    database = [[FMDatabase alloc] initWithPath:databaseFilePath];
+    
+    if ([database open])
+        NSLog(@"open sqlite db ok.");
+}
+
+- (void)closeDatabase
+{
+    if (database != NULL) {
+        [database close];
+        [database release];
+        NSLog(@"close sqlite db ok.");
+    }
+}
+
+
 #pragma mark -
 #pragma mark RESideMenu Delegate
 

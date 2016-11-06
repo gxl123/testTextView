@@ -198,7 +198,7 @@
         userIconButton.layer.borderWidth=3.0f; //边框宽度
         userIconButton.layer.borderColor=[[UIColor whiteColor] CGColor];//边框颜色
 #endif
-        [userIconButton addTarget:self action:@selector(toAccountController:) forControlEvents:UIControlEventTouchUpInside];
+       // [userIconButton addTarget:self action:@selector(toAccountController:) forControlEvents:UIControlEventTouchUpInside];
         //[btnSwitch addTarget: self action: @selector(doSwitchView:) forControlEvents: UIControlEventTouchUpInside];
         //}
         //        UILabel *uidTextView = [[UILabel alloc] initWithFrame:CGRectMake(0, 150, self.view.frame.size.width/2, 20)];

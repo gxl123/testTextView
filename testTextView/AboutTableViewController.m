@@ -7,7 +7,7 @@
 //
 
 #import "AboutTableViewController.h"
-
+#import "UICommon.h"
 @interface AboutTableViewController ()
 
 @end
@@ -22,6 +22,9 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    //左侧按钮
+    [UICommon createLeftSlideNavBarBtn:self actionSelector:@selector(presentLeftMenuViewController:)];
+    [UICommon setNavigationTitle:self text:NSLocalizedString(@"关于", @"")];
 }
 
 - (void)didReceiveMemoryWarning {
