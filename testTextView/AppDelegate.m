@@ -10,8 +10,10 @@
 #import "DEMOLeftMenuViewController.h"
 #import "ReadTrainTableViewController.h"
 #import "ToolCommon.h"
+#import "FMDatabase.h"
 @interface AppDelegate (){
     UIViewController* _rootViewController;
+    FMDatabase* database;
 }
 
 @end
@@ -86,7 +88,6 @@
 {
     if (database != NULL) {
         [database close];
-        [database release];
         NSLog(@"close sqlite db ok.");
     }
 }

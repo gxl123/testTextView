@@ -36,6 +36,7 @@
 		C83DBC7F1DCD855600CF29C0 /* home_icon_cebianlan_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = C83DBC7D1DCD855500CF29C0 /* home_icon_cebianlan_normal.png */; };
 		C83DBC801DCD855600CF29C0 /* home_icon_cebianlan_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = C83DBC7E1DCD855500CF29C0 /* home_icon_cebianlan_selected.png */; };
 		C83DBC821DCDBE0400CF29C0 /* home_icon_cebianlan_selecte.png in Resources */ = {isa = PBXBuildFile; fileRef = C83DBC811DCDBE0400CF29C0 /* home_icon_cebianlan_selecte.png */; };
+		C83DBC841DD1D78000CF29C0 /* db1.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = C83DBC831DD1D78000CF29C0 /* db1.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +93,7 @@
 		C83DBC7D1DCD855500CF29C0 /* home_icon_cebianlan_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_icon_cebianlan_normal.png; sourceTree = "<group>"; };
 		C83DBC7E1DCD855500CF29C0 /* home_icon_cebianlan_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_icon_cebianlan_selected.png; sourceTree = "<group>"; };
 		C83DBC811DCDBE0400CF29C0 /* home_icon_cebianlan_selecte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_icon_cebianlan_selecte.png; sourceTree = "<group>"; };
+		C83DBC831DD1D78000CF29C0 /* db1.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = db1.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 		6D4594631DCF04A2005E4C0F /* FMDB */ = {
 			isa = PBXGroup;
 			children = (
+				C83DBC831DD1D78000CF29C0 /* db1.sqlite */,
 				6D4594641DCF04A2005E4C0F /* FMDatabase.h */,
 				6D4594651DCF04A2005E4C0F /* FMDatabase.m */,
 				6D4594661DCF04A2005E4C0F /* FMDatabaseAdditions.h */,
@@ -302,6 +305,7 @@
 				C83DBC821DCDBE0400CF29C0 /* home_icon_cebianlan_selecte.png in Resources */,
 				C83DBC7F1DCD855600CF29C0 /* home_icon_cebianlan_normal.png in Resources */,
 				6D2161581DC8C9EB00015167 /* Assets.xcassets in Resources */,
+				C83DBC841DD1D78000CF29C0 /* db1.sqlite in Resources */,
 				C83DBC791DCD7CD900CF29C0 /* profile.png in Resources */,
 				6D2161561DC8C9EB00015167 /* Main.storyboard in Resources */,
 			);
