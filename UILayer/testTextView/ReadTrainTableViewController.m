@@ -8,6 +8,7 @@
 
 #import "ReadTrainTableViewController.h"
 #import "UICommon.h"
+#import "ArticleBL.h"
 @interface ReadTrainTableViewController ()
 
 @end
@@ -25,6 +26,9 @@
     //左侧按钮
     [UICommon createLeftSlideNavBarBtn:self actionSelector:@selector(presentLeftMenuViewController:)];
     [UICommon setNavigationTitle:self text:NSLocalizedString(@"阅读训练", @"")];
+    
+    ArticleBL* abl= [[ArticleBL alloc]init];
+    NSArray * arrayArticles= [abl readData];
 }
 
 - (void)didReceiveMemoryWarning {
