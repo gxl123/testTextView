@@ -19,6 +19,14 @@
 		C83DBCDB1DD30B6D00CF29C0 /* Article.h in Headers */ = {isa = PBXBuildFile; fileRef = C83DBC9D1DD2F38E00CF29C0 /* Article.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C83DBCDC1DD30B6D00CF29C0 /* ArticleDAO.h in Headers */ = {isa = PBXBuildFile; fileRef = C83DBCA01DD2F56E00CF29C0 /* ArticleDAO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C83DBCDD1DD30B6D00CF29C0 /* BaseDAO.h in Headers */ = {isa = PBXBuildFile; fileRef = C83DBCB91DD2FB9C00CF29C0 /* BaseDAO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C83DBCF51DD320B200CF29C0 /* TestArticle.h in Headers */ = {isa = PBXBuildFile; fileRef = C83DBCF31DD320B200CF29C0 /* TestArticle.h */; };
+		C83DBCF61DD320B200CF29C0 /* TestArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = C83DBCF41DD320B200CF29C0 /* TestArticle.m */; };
+		C83DBCF91DD320D900CF29C0 /* TestQuestion.h in Headers */ = {isa = PBXBuildFile; fileRef = C83DBCF71DD320D900CF29C0 /* TestQuestion.h */; };
+		C83DBCFA1DD320D900CF29C0 /* TestQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = C83DBCF81DD320D900CF29C0 /* TestQuestion.m */; };
+		C83DBCFD1DD3210900CF29C0 /* TestArticleDAO.h in Headers */ = {isa = PBXBuildFile; fileRef = C83DBCFB1DD3210900CF29C0 /* TestArticleDAO.h */; };
+		C83DBCFE1DD3210900CF29C0 /* TestArticleDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = C83DBCFC1DD3210900CF29C0 /* TestArticleDAO.m */; };
+		C83DBD011DD3212300CF29C0 /* TestQuestionDAO.h in Headers */ = {isa = PBXBuildFile; fileRef = C83DBCFF1DD3212300CF29C0 /* TestQuestionDAO.h */; };
+		C83DBD021DD3212300CF29C0 /* TestQuestionDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = C83DBD001DD3212300CF29C0 /* TestQuestionDAO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +67,14 @@
 		C83DBCE71DD31B4000CF29C0 /* db1.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = db1.sql; sourceTree = "<group>"; };
 		C83DBCE81DD31B4000CF29C0 /* db1.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = db1.sqlite; sourceTree = "<group>"; };
 		C83DBCE91DD31B4000CF29C0 /* DBConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DBConfig.plist; sourceTree = "<group>"; };
+		C83DBCF31DD320B200CF29C0 /* TestArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestArticle.h; sourceTree = "<group>"; };
+		C83DBCF41DD320B200CF29C0 /* TestArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestArticle.m; sourceTree = "<group>"; };
+		C83DBCF71DD320D900CF29C0 /* TestQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestQuestion.h; sourceTree = "<group>"; };
+		C83DBCF81DD320D900CF29C0 /* TestQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestQuestion.m; sourceTree = "<group>"; };
+		C83DBCFB1DD3210900CF29C0 /* TestArticleDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestArticleDAO.h; sourceTree = "<group>"; };
+		C83DBCFC1DD3210900CF29C0 /* TestArticleDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestArticleDAO.m; sourceTree = "<group>"; };
+		C83DBCFF1DD3212300CF29C0 /* TestQuestionDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestQuestionDAO.h; sourceTree = "<group>"; };
+		C83DBD001DD3212300CF29C0 /* TestQuestionDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestQuestionDAO.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +114,18 @@
 				C83DBC951DD2BE0100CF29C0 /* DataProcessLayer.m */,
 				C83DBC9D1DD2F38E00CF29C0 /* Article.h */,
 				C83DBC9E1DD2F38E00CF29C0 /* Article.m */,
-				C83DBCA01DD2F56E00CF29C0 /* ArticleDAO.h */,
-				C83DBCA11DD2F56E00CF29C0 /* ArticleDAO.m */,
+				C83DBCF31DD320B200CF29C0 /* TestArticle.h */,
+				C83DBCF41DD320B200CF29C0 /* TestArticle.m */,
+				C83DBCF71DD320D900CF29C0 /* TestQuestion.h */,
+				C83DBCF81DD320D900CF29C0 /* TestQuestion.m */,
 				C83DBCB91DD2FB9C00CF29C0 /* BaseDAO.h */,
 				C83DBCBA1DD2FB9C00CF29C0 /* BaseDAO.m */,
+				C83DBCA01DD2F56E00CF29C0 /* ArticleDAO.h */,
+				C83DBCA11DD2F56E00CF29C0 /* ArticleDAO.m */,
+				C83DBCFB1DD3210900CF29C0 /* TestArticleDAO.h */,
+				C83DBCFC1DD3210900CF29C0 /* TestArticleDAO.m */,
+				C83DBCFF1DD3212300CF29C0 /* TestQuestionDAO.h */,
+				C83DBD001DD3212300CF29C0 /* TestQuestionDAO.m */,
 				C83DBCBC1DD2FC6B00CF29C0 /* PrefixHeader.pch */,
 			);
 			path = DataProcessLayer;
@@ -152,8 +176,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C83DBCDB1DD30B6D00CF29C0 /* Article.h in Headers */,
+				C83DBCF91DD320D900CF29C0 /* TestQuestion.h in Headers */,
+				C83DBCFD1DD3210900CF29C0 /* TestArticleDAO.h in Headers */,
 				C83DBCDC1DD30B6D00CF29C0 /* ArticleDAO.h in Headers */,
 				C83DBCDD1DD30B6D00CF29C0 /* BaseDAO.h in Headers */,
+				C83DBCF51DD320B200CF29C0 /* TestArticle.h in Headers */,
+				C83DBD011DD3212300CF29C0 /* TestQuestionDAO.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,12 +244,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C83DBCF61DD320B200CF29C0 /* TestArticle.m in Sources */,
 				C83DBC9F1DD2F38E00CF29C0 /* Article.m in Sources */,
 				C83DBCB21DD2F72C00CF29C0 /* FMDatabasePool.m in Sources */,
+				C83DBCFE1DD3210900CF29C0 /* TestArticleDAO.m in Sources */,
 				C83DBC961DD2BE0100CF29C0 /* DataProcessLayer.m in Sources */,
 				C83DBCB31DD2F72C00CF29C0 /* FMDatabaseQueue.m in Sources */,
 				C83DBCA21DD2F56E00CF29C0 /* ArticleDAO.m in Sources */,
 				C83DBCB01DD2F72C00CF29C0 /* FMDatabase.m in Sources */,
+				C83DBD021DD3212300CF29C0 /* TestQuestionDAO.m in Sources */,
+				C83DBCFA1DD320D900CF29C0 /* TestQuestion.m in Sources */,
 				C83DBCB41DD2F72C00CF29C0 /* FMResultSet.m in Sources */,
 				C83DBCBB1DD2FB9C00CF29C0 /* BaseDAO.m in Sources */,
 				C83DBCB11DD2F72C00CF29C0 /* FMDatabaseAdditions.m in Sources */,

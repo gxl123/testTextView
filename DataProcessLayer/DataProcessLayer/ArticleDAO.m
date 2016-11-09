@@ -9,7 +9,7 @@
 #import "ArticleDAO.h"
 #import "FMDatabase.h"
 @implementation ArticleDAO
-FMDatabase *database;
+
 static ArticleDAO *sharedManager = nil;
 
 + (ArticleDAO*)sharedManager{
@@ -25,7 +25,7 @@ static ArticleDAO *sharedManager = nil;
 //查询所有数据方法
 -(NSMutableArray*) findAll{
     NSMutableArray *listData = [[NSMutableArray alloc] init];
-    database=[self openDB];
+    FMDatabase *database=[self openDB];
     NSAssert(database, @"打开数据库失败。");
     if (database) {
         FMResultSet *rs = [database executeQuery:@"SELECT * FROM article"];
