@@ -40,4 +40,5 @@ static TestArticleDAO *sharedManager = nil;
     }
     return listData;
 }
+
 @end

@@ -5,9 +5,6 @@
       location = "group:UILayer/testTextView.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:BusinessProcessLayer/BusinessProcessLayer.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:DataProcessLayer/DataProcessLayer.xcodeproj">
    </FileRef>
 </Workspace>

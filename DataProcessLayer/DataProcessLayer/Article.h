@@ -21,7 +21,7 @@
 //内容
 @property(nonatomic, strong) NSString* Content;
 //字数
-@property(nonatomic, assign) int Count;
+@property(nonatomic, assign) NSUInteger Count;
 //作者
 @property(nonatomic, strong) NSString* Author;
 

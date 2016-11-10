@@ -21,12 +21,12 @@ static TestQuestionDAO *sharedManager = nil;
 }
 
 //查询所有数据方法
--(NSMutableArray*) findSubjectListByArticleID:(int)v_articleID{
+-(NSMutableArray*) findSubjectListByArticleID:(NSInteger)v_articleID{
     NSMutableArray *listData = [[NSMutableArray alloc] init];
     FMDatabase *database=[self openDB];
     NSAssert(database, @"打开数据库失败。");
     if (database) {
-        FMResultSet *rs = [database executeQuery:@"SELECT * FROM testQuestions where ARTICLEID=?",v_articleID];
+        FMResultSet *rs = [database executeQuery:@"SELECT * FROM testQuestions where ARTICLEID=?",@(v_articleID)];
         while ([rs next]) {
             TestQuestion* testQuestion = [[TestQuestion alloc] init];
             testQuestion.QuestionID = [rs intForColumn:@"id"];

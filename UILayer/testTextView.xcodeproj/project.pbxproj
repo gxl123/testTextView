@@ -14,6 +14,11 @@
 		6D2161581DC8C9EB00015167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D2161571DC8C9EB00015167 /* Assets.xcassets */; };
 		6D21615B1DC8C9EB00015167 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D2161591DC8C9EB00015167 /* LaunchScreen.storyboard */; };
 		6D63E6441DCF4F8600667AF6 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D63E6431DCF4F8600667AF6 /* libsqlite3.0.tbd */; };
+		C82185D31DD4206D0094128F /* ReadTestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C82185D21DD4206D0094128F /* ReadTestTableViewController.m */; };
+		C82185DC1DD43F0E0094128F /* TestQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C82185DA1DD43F0E0094128F /* TestQuestionViewController.m */; };
+		C82185DD1DD43F0E0094128F /* TestQuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C82185DB1DD43F0E0094128F /* TestQuestionViewController.xib */; };
+		C82185E01DD43F1E0094128F /* TestPageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C82185DF1DD43F1E0094128F /* TestPageTableViewController.m */; };
+		C82185E21DD45DB10094128F /* libDataProcessLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C82185E11DD45DB10094128F /* libDataProcessLayer.a */; };
 		C83DBC5F1DCD711A00CF29C0 /* DEMOFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C83DBC501DCD711A00CF29C0 /* DEMOFirstViewController.m */; };
 		C83DBC601DCD711A00CF29C0 /* DEMOLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C83DBC521DCD711A00CF29C0 /* DEMOLeftMenuViewController.m */; };
 		C83DBC611DCD711A00CF29C0 /* DEMORightMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C83DBC541DCD711A00CF29C0 /* DEMORightMenuViewController.m */; };
@@ -31,7 +36,6 @@
 		C83DBC7F1DCD855600CF29C0 /* home_icon_cebianlan_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = C83DBC7D1DCD855500CF29C0 /* home_icon_cebianlan_normal.png */; };
 		C83DBC801DCD855600CF29C0 /* home_icon_cebianlan_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = C83DBC7E1DCD855500CF29C0 /* home_icon_cebianlan_selected.png */; };
 		C83DBC821DCDBE0400CF29C0 /* home_icon_cebianlan_selecte.png in Resources */ = {isa = PBXBuildFile; fileRef = C83DBC811DCDBE0400CF29C0 /* home_icon_cebianlan_selecte.png */; };
-		C83DBCDF1DD3137100CF29C0 /* libBusinessProcessLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C83DBCDE1DD3137100CF29C0 /* libBusinessProcessLayer.a */; };
 		C83DBCEF1DD31B5800CF29C0 /* create_load.sql in Resources */ = {isa = PBXBuildFile; fileRef = C83DBCEB1DD31B5800CF29C0 /* create_load.sql */; };
 		C83DBCF01DD31B5800CF29C0 /* db1.sql in Resources */ = {isa = PBXBuildFile; fileRef = C83DBCEC1DD31B5800CF29C0 /* db1.sql */; };
 		C83DBCF11DD31B5800CF29C0 /* db1.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = C83DBCED1DD31B5800CF29C0 /* db1.sqlite */; };
@@ -50,6 +54,14 @@
 		6D21615A1DC8C9EB00015167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D21615C1DC8C9EB00015167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D63E6431DCF4F8600667AF6 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		C82185D11DD4206D0094128F /* ReadTestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadTestTableViewController.h; sourceTree = "<group>"; };
+		C82185D21DD4206D0094128F /* ReadTestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadTestTableViewController.m; sourceTree = "<group>"; };
+		C82185D91DD43F0E0094128F /* TestQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestQuestionViewController.h; sourceTree = "<group>"; };
+		C82185DA1DD43F0E0094128F /* TestQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestQuestionViewController.m; sourceTree = "<group>"; };
+		C82185DB1DD43F0E0094128F /* TestQuestionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestQuestionViewController.xib; sourceTree = "<group>"; };
+		C82185DE1DD43F1E0094128F /* TestPageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPageTableViewController.h; sourceTree = "<group>"; };
+		C82185DF1DD43F1E0094128F /* TestPageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPageTableViewController.m; sourceTree = "<group>"; };
+		C82185E11DD45DB10094128F /* libDataProcessLayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libDataProcessLayer.a; path = "../../../Library/Developer/Xcode/DerivedData/QuickRead-fdwqlytkhzdrcceuaagrpnzxantl/Build/Products/Debug-iphonesimulator/libDataProcessLayer.a"; sourceTree = "<group>"; };
 		C83DBC4F1DCD711A00CF29C0 /* DEMOFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOFirstViewController.h; sourceTree = "<group>"; };
 		C83DBC501DCD711A00CF29C0 /* DEMOFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOFirstViewController.m; sourceTree = "<group>"; };
 		C83DBC511DCD711A00CF29C0 /* DEMOLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOLeftMenuViewController.h; sourceTree = "<group>"; };
@@ -94,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C83DBCDF1DD3137100CF29C0 /* libBusinessProcessLayer.a in Frameworks */,
+				C82185E21DD45DB10094128F /* libDataProcessLayer.a in Frameworks */,
 				6D63E6441DCF4F8600667AF6 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,6 +144,13 @@
 				6D21614F1DC8C9EB00015167 /* AppDelegate.m */,
 				C83DBC671DCD726900CF29C0 /* ReadTrainTableViewController.h */,
 				C83DBC681DCD726900CF29C0 /* ReadTrainTableViewController.m */,
+				C82185D11DD4206D0094128F /* ReadTestTableViewController.h */,
+				C82185D21DD4206D0094128F /* ReadTestTableViewController.m */,
+				C82185D91DD43F0E0094128F /* TestQuestionViewController.h */,
+				C82185DA1DD43F0E0094128F /* TestQuestionViewController.m */,
+				C82185DB1DD43F0E0094128F /* TestQuestionViewController.xib */,
+				C82185DE1DD43F1E0094128F /* TestPageTableViewController.h */,
+				C82185DF1DD43F1E0094128F /* TestPageTableViewController.m */,
 				C83DBC6A1DCD734C00CF29C0 /* AboutTableViewController.h */,
 				C83DBC6B1DCD734C00CF29C0 /* AboutTableViewController.m */,
 				C83DBC741DCD75AE00CF29C0 /* ToolCommon.h */,
@@ -158,6 +177,7 @@
 		6D63E6421DCF4F8500667AF6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C82185E11DD45DB10094128F /* libDataProcessLayer.a */,
 				C83DBCDE1DD3137100CF29C0 /* libBusinessProcessLayer.a */,
 				6D63E6431DCF4F8600667AF6 /* libsqlite3.0.tbd */,
 			);
@@ -300,6 +320,7 @@
 				C83DBC791DCD7CD900CF29C0 /* profile.png in Resources */,
 				C83DBCF01DD31B5800CF29C0 /* db1.sql in Resources */,
 				6D2161561DC8C9EB00015167 /* Main.storyboard in Resources */,
+				C82185DD1DD43F0E0094128F /* TestQuestionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,11 +337,14 @@
 				C83DBC7C1DCD84EE00CF29C0 /* UICommon.m in Sources */,
 				C83DBC5F1DCD711A00CF29C0 /* DEMOFirstViewController.m in Sources */,
 				6D2161531DC8C9EB00015167 /* ViewController.m in Sources */,
+				C82185E01DD43F1E0094128F /* TestPageTableViewController.m in Sources */,
 				6D2161501DC8C9EB00015167 /* AppDelegate.m in Sources */,
 				C83DBC621DCD711A00CF29C0 /* DEMOSecondViewController.m in Sources */,
+				C82185DC1DD43F0E0094128F /* TestQuestionViewController.m in Sources */,
 				6D21614D1DC8C9EB00015167 /* main.m in Sources */,
 				C83DBC6C1DCD734C00CF29C0 /* AboutTableViewController.m in Sources */,
 				C83DBC611DCD711A00CF29C0 /* DEMORightMenuViewController.m in Sources */,
+				C82185D31DD4206D0094128F /* ReadTestTableViewController.m in Sources */,
 				C83DBC661DCD711A00CF29C0 /* UIViewController+RESideMenu.m in Sources */,
 				C83DBC651DCD711A00CF29C0 /* RESideMenu.m in Sources */,
 				C83DBC761DCD75AE00CF29C0 /* ToolCommon.m in Sources */,

@@ -12,6 +12,7 @@
 #import "AppDelegate.h"
 #import "ToolCommon.h"
 #import "ReadTrainTableViewController.h"
+#import "ReadTestTableViewController.h"
 #import "AboutTableViewController.h"
 @interface DEMOLeftMenuViewController (){
     NSArray *_arrTitles;
@@ -93,7 +94,7 @@
 }
 
 -(void) toFileMgntController:(id)sender{
-    ReadTrainTableViewController* controller=[[ReadTrainTableViewController alloc]initWithStyle:UITableViewStylePlain];
+    ReadTestTableViewController* controller=[[ReadTestTableViewController alloc]initWithStyle:UITableViewStylePlain];
     UINavigationController *nav=[[UINavigationController alloc] initWithRootViewController:controller];
     [self.sideMenuViewController setContentViewController:nav animated:YES];
     [self.sideMenuViewController hideMenuViewController];
@@ -132,10 +133,10 @@
                 [self toDevicesController:nil];
                 break;
             case 1:
-                [self toRemoteRecordController:nil];
+                [self toFileMgntController:nil];
                 break;
             case 2:
-                [self toFileMgntController:nil];
+                [self toRemoteRecordController:nil];
                 break;
             case 3:
                 [self toAboutController:nil];

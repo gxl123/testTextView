@@ -19,13 +19,13 @@
 		C83DBCDB1DD30B6D00CF29C0 /* Article.h in Headers */ = {isa = PBXBuildFile; fileRef = C83DBC9D1DD2F38E00CF29C0 /* Article.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C83DBCDC1DD30B6D00CF29C0 /* ArticleDAO.h in Headers */ = {isa = PBXBuildFile; fileRef = C83DBCA01DD2F56E00CF29C0 /* ArticleDAO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C83DBCDD1DD30B6D00CF29C0 /* BaseDAO.h in Headers */ = {isa = PBXBuildFile; fileRef = C83DBCB91DD2FB9C00CF29C0 /* BaseDAO.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C83DBCF51DD320B200CF29C0 /* TestArticle.h in Headers */ = {isa = PBXBuildFile; fileRef = C83DBCF31DD320B200CF29C0 /* TestArticle.h */; };
+		C83DBCF51DD320B200CF29C0 /* TestArticle.h in Headers */ = {isa = PBXBuildFile; fileRef = C83DBCF31DD320B200CF29C0 /* TestArticle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C83DBCF61DD320B200CF29C0 /* TestArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = C83DBCF41DD320B200CF29C0 /* TestArticle.m */; };
-		C83DBCF91DD320D900CF29C0 /* TestQuestion.h in Headers */ = {isa = PBXBuildFile; fileRef = C83DBCF71DD320D900CF29C0 /* TestQuestion.h */; };
+		C83DBCF91DD320D900CF29C0 /* TestQuestion.h in Headers */ = {isa = PBXBuildFile; fileRef = C83DBCF71DD320D900CF29C0 /* TestQuestion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C83DBCFA1DD320D900CF29C0 /* TestQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = C83DBCF81DD320D900CF29C0 /* TestQuestion.m */; };
-		C83DBCFD1DD3210900CF29C0 /* TestArticleDAO.h in Headers */ = {isa = PBXBuildFile; fileRef = C83DBCFB1DD3210900CF29C0 /* TestArticleDAO.h */; };
+		C83DBCFD1DD3210900CF29C0 /* TestArticleDAO.h in Headers */ = {isa = PBXBuildFile; fileRef = C83DBCFB1DD3210900CF29C0 /* TestArticleDAO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C83DBCFE1DD3210900CF29C0 /* TestArticleDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = C83DBCFC1DD3210900CF29C0 /* TestArticleDAO.m */; };
-		C83DBD011DD3212300CF29C0 /* TestQuestionDAO.h in Headers */ = {isa = PBXBuildFile; fileRef = C83DBCFF1DD3212300CF29C0 /* TestQuestionDAO.h */; };
+		C83DBD011DD3212300CF29C0 /* TestQuestionDAO.h in Headers */ = {isa = PBXBuildFile; fileRef = C83DBCFF1DD3212300CF29C0 /* TestQuestionDAO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C83DBD021DD3212300CF29C0 /* TestQuestionDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = C83DBD001DD3212300CF29C0 /* TestQuestionDAO.m */; };
 /* End PBXBuildFile section */
 
@@ -178,10 +178,10 @@
 				C83DBCDB1DD30B6D00CF29C0 /* Article.h in Headers */,
 				C83DBCF91DD320D900CF29C0 /* TestQuestion.h in Headers */,
 				C83DBCFD1DD3210900CF29C0 /* TestArticleDAO.h in Headers */,
-				C83DBCDC1DD30B6D00CF29C0 /* ArticleDAO.h in Headers */,
-				C83DBCDD1DD30B6D00CF29C0 /* BaseDAO.h in Headers */,
 				C83DBCF51DD320B200CF29C0 /* TestArticle.h in Headers */,
 				C83DBD011DD3212300CF29C0 /* TestQuestionDAO.h in Headers */,
+				C83DBCDC1DD30B6D00CF29C0 /* ArticleDAO.h in Headers */,
+				C83DBCDD1DD30B6D00CF29C0 /* BaseDAO.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

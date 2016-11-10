@@ -1,20 +1,18 @@
 //
-//  ReadTrainTableViewController.m
+//  TestPageTableViewController.m
 //  testTextView
 //
-//  Created by gxl on 16/11/5.
+//  Created by gxl on 16/11/10.
 //  Copyright © 2016年 ml . All rights reserved.
 //
 
-#import "ReadTrainTableViewController.h"
-#import "UICommon.h"
-@interface ReadTrainTableViewController (){
-    NSArray * arrayArticles;
-}
+#import "TestPageTableViewController.h"
+
+@interface TestPageTableViewController ()
 
 @end
 
-@implementation ReadTrainTableViewController
+@implementation TestPageTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,12 +22,7 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    //左侧按钮
-    [UICommon createLeftSlideNavBarBtn:self actionSelector:@selector(presentLeftMenuViewController:)];
-    [UICommon setNavigationTitle:self text:NSLocalizedString(@"阅读训练", @"")];
-    
-//    ArticleBL* abl= [[ArticleBL alloc]init];
-//    NSArray * arrayArticles= [abl readData];
+    [self.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -40,24 +33,24 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+    return 1;
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
-    return cell;
+     static NSString *cellIdentifier = @"MyCell";
+     UITableViewCell *cell = (UITableViewCell *)[tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+     if (cell == nil) {
+     cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:cellIdentifier];
+     }
+     cell.textLabel.text=_question.SubjectName;
+     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.

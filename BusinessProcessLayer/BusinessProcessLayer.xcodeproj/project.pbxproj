@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C82185CB1DD412730094128F /* TestQuestionBL.h in Headers */ = {isa = PBXBuildFile; fileRef = C82185C91DD412730094128F /* TestQuestionBL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C82185CC1DD412730094128F /* TestQuestionBL.m in Sources */ = {isa = PBXBuildFile; fileRef = C82185CA1DD412730094128F /* TestQuestionBL.m */; };
+		C82185CF1DD412A60094128F /* TestArticleBL.h in Headers */ = {isa = PBXBuildFile; fileRef = C82185CD1DD412A60094128F /* TestArticleBL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C82185D01DD412A60094128F /* TestArticleBL.m in Sources */ = {isa = PBXBuildFile; fileRef = C82185CE1DD412A60094128F /* TestArticleBL.m */; };
 		C83DBCCB1DD302D300CF29C0 /* BusinessProcessLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C83DBCCA1DD302D300CF29C0 /* BusinessProcessLayer.m */; };
 		C83DBCD41DD3036500CF29C0 /* ArticleBL.m in Sources */ = {isa = PBXBuildFile; fileRef = C83DBCD31DD3036500CF29C0 /* ArticleBL.m */; };
 		C83DBCD71DD30AEF00CF29C0 /* libDataProcessLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C83DBCD61DD30AEF00CF29C0 /* libDataProcessLayer.a */; };
@@ -26,6 +30,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C82185C91DD412730094128F /* TestQuestionBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestQuestionBL.h; sourceTree = "<group>"; };
+		C82185CA1DD412730094128F /* TestQuestionBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestQuestionBL.m; sourceTree = "<group>"; };
+		C82185CD1DD412A60094128F /* TestArticleBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestArticleBL.h; sourceTree = "<group>"; };
+		C82185CE1DD412A60094128F /* TestArticleBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestArticleBL.m; sourceTree = "<group>"; };
 		C83DBCC61DD302D300CF29C0 /* libBusinessProcessLayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBusinessProcessLayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C83DBCC91DD302D300CF29C0 /* BusinessProcessLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BusinessProcessLayer.h; sourceTree = "<group>"; };
 		C83DBCCA1DD302D300CF29C0 /* BusinessProcessLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusinessProcessLayer.m; sourceTree = "<group>"; };
@@ -70,6 +78,10 @@
 				C83DBCCA1DD302D300CF29C0 /* BusinessProcessLayer.m */,
 				C83DBCD21DD3036500CF29C0 /* ArticleBL.h */,
 				C83DBCD31DD3036500CF29C0 /* ArticleBL.m */,
+				C82185C91DD412730094128F /* TestQuestionBL.h */,
+				C82185CA1DD412730094128F /* TestQuestionBL.m */,
+				C82185CD1DD412A60094128F /* TestArticleBL.h */,
+				C82185CE1DD412A60094128F /* TestArticleBL.m */,
 			);
 			path = BusinessProcessLayer;
 			sourceTree = "<group>";
@@ -89,6 +101,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C82185CF1DD412A60094128F /* TestArticleBL.h in Headers */,
+				C82185CB1DD412730094128F /* TestQuestionBL.h in Headers */,
 				C83DBCE11DD316E400CF29C0 /* ArticleBL.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,8 +166,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C82185D01DD412A60094128F /* TestArticleBL.m in Sources */,
 				C83DBCD41DD3036500CF29C0 /* ArticleBL.m in Sources */,
 				C83DBCCB1DD302D300CF29C0 /* BusinessProcessLayer.m in Sources */,
+				C82185CC1DD412730094128F /* TestQuestionBL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

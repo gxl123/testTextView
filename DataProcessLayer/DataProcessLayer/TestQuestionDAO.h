@@ -13,4 +13,7 @@
 
 //查询所有数据方法
 -(NSMutableArray*) findAll;
+
+//查询所有数据方法
+-(NSMutableArray*) findSubjectListByArticleID:(NSInteger)v_articleID;
 @end

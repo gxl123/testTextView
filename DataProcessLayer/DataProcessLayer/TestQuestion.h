@@ -17,7 +17,7 @@
 //题目ID
 @property(nonatomic, assign) NSUInteger SubjectID;
 //题目名称
-@property(nonatomic, assign) NSString* SubjectName;
+@property(nonatomic, strong) NSString* SubjectName;
 //选项1
 @property(nonatomic, strong) NSString* Select1;
 //选项1
