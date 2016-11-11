@@ -170,6 +170,10 @@
 		C88D91CC1DD56D8B0087D7DE /* 眼脑直影训练.ppt in Resources */ = {isa = PBXBuildFile; fileRef = C88D912A1DD56D8B0087D7DE /* 眼脑直影训练.ppt */; };
 		C88D91CD1DD56D8B0087D7DE /* 请说出科普作者及国籍.ppt in Resources */ = {isa = PBXBuildFile; fileRef = C88D912B1DD56D8B0087D7DE /* 请说出科普作者及国籍.ppt */; };
 		C88D91CF1DD56FA30087D7DE /* images in Resources */ = {isa = PBXBuildFile; fileRef = C88D91CE1DD56FA30087D7DE /* images */; };
+		C88D91D51DD572230087D7DE /* ScanReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C88D91D31DD572230087D7DE /* ScanReadViewController.m */; };
+		C88D91D61DD572230087D7DE /* ScanReadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C88D91D41DD572230087D7DE /* ScanReadViewController.xib */; };
+		C88D91D91DD5AF9B0087D7DE /* ReadTrainArticlesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C88D91D81DD5AF9B0087D7DE /* ReadTrainArticlesTableViewController.m */; };
+		C88D91DB1DD5C2BD0087D7DE /* 丹田冥想呼吸引领.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C88D91DA1DD5C2BD0087D7DE /* 丹田冥想呼吸引领.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -360,6 +364,12 @@
 		C88D912A1DD56D8B0087D7DE /* 眼脑直影训练.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "眼脑直影训练.ppt"; sourceTree = "<group>"; };
 		C88D912B1DD56D8B0087D7DE /* 请说出科普作者及国籍.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "请说出科普作者及国籍.ppt"; sourceTree = "<group>"; };
 		C88D91CE1DD56FA30087D7DE /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		C88D91D21DD572230087D7DE /* ScanReadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanReadViewController.h; sourceTree = "<group>"; };
+		C88D91D31DD572230087D7DE /* ScanReadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanReadViewController.m; sourceTree = "<group>"; };
+		C88D91D41DD572230087D7DE /* ScanReadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScanReadViewController.xib; sourceTree = "<group>"; };
+		C88D91D71DD5AF9B0087D7DE /* ReadTrainArticlesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadTrainArticlesTableViewController.h; sourceTree = "<group>"; };
+		C88D91D81DD5AF9B0087D7DE /* ReadTrainArticlesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadTrainArticlesTableViewController.m; sourceTree = "<group>"; };
+		C88D91DA1DD5C2BD0087D7DE /* 丹田冥想呼吸引领.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "丹田冥想呼吸引领.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -408,6 +418,11 @@
 				C83DBC681DCD726900CF29C0 /* ReadTrainTableViewController.m */,
 				C82185D11DD4206D0094128F /* ReadTestTableViewController.h */,
 				C82185D21DD4206D0094128F /* ReadTestTableViewController.m */,
+				C88D91D71DD5AF9B0087D7DE /* ReadTrainArticlesTableViewController.h */,
+				C88D91D81DD5AF9B0087D7DE /* ReadTrainArticlesTableViewController.m */,
+				C88D91D21DD572230087D7DE /* ScanReadViewController.h */,
+				C88D91D31DD572230087D7DE /* ScanReadViewController.m */,
+				C88D91D41DD572230087D7DE /* ScanReadViewController.xib */,
 				C82185D91DD43F0E0094128F /* TestQuestionViewController.h */,
 				C82185DA1DD43F0E0094128F /* TestQuestionViewController.m */,
 				C82185DB1DD43F0E0094128F /* TestQuestionViewController.xib */,
@@ -433,6 +448,7 @@
 		6D21614B1DC8C9EB00015167 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C88D91DA1DD5C2BD0087D7DE /* 丹田冥想呼吸引领.mp3 */,
 				6D21614C1DC8C9EB00015167 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -790,6 +806,7 @@
 				C88D912C1DD56D8B0087D7DE /* 1_1 - 复制.htm in Resources */,
 				C88D91661DD56D8B0087D7DE /* 3dmax-11.htm in Resources */,
 				C88D914A1DD56D8B0087D7DE /* 3_2.htm in Resources */,
+				C88D91DB1DD5C2BD0087D7DE /* 丹田冥想呼吸引领.mp3 in Resources */,
 				C88D91571DD56D8B0087D7DE /* 2.jpg in Resources */,
 				C88D91901DD56D8B0087D7DE /* 6_1.htm in Resources */,
 				C83DBC801DCD855600CF29C0 /* home_icon_cebianlan_selected.png in Resources */,
@@ -803,6 +820,7 @@
 				C88D91611DD56D8B0087D7DE /* 29.jpg in Resources */,
 				C88D91801DD56D8B0087D7DE /* 3dmax-8.htm in Resources */,
 				C88D91381DD56D8B0087D7DE /* 1_3_max2.htm in Resources */,
+				C88D91D61DD572230087D7DE /* ScanReadViewController.xib in Resources */,
 				C88D914C1DD56D8B0087D7DE /* 1.jpg in Resources */,
 				C88D91911DD56D8B0087D7DE /* 一点凝视训练1.exe in Resources */,
 				C83DBCF21DD31B5800CF29C0 /* DBConfig.plist in Resources */,
@@ -898,7 +916,9 @@
 				6D21614D1DC8C9EB00015167 /* main.m in Sources */,
 				C83DBC6C1DCD734C00CF29C0 /* AboutTableViewController.m in Sources */,
 				C83DBC611DCD711A00CF29C0 /* DEMORightMenuViewController.m in Sources */,
+				C88D91D91DD5AF9B0087D7DE /* ReadTrainArticlesTableViewController.m in Sources */,
 				C82185D31DD4206D0094128F /* ReadTestTableViewController.m in Sources */,
+				C88D91D51DD572230087D7DE /* ScanReadViewController.m in Sources */,
 				C83DBC661DCD711A00CF29C0 /* UIViewController+RESideMenu.m in Sources */,
 				C83DBC651DCD711A00CF29C0 /* RESideMenu.m in Sources */,
 				C83DBC761DCD75AE00CF29C0 /* ToolCommon.m in Sources */,

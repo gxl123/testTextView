@@ -18,5 +18,5 @@
 
 //unsigned int g_dwGLogZoneSeed = tAll_MSK;
 @interface ToolCommon : NSObject
-
++ (ToolCommon*)sharedManager;
 @end

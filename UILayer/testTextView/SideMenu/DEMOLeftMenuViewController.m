@@ -47,7 +47,7 @@
         //tableView.opaque = NO;
         tableView.backgroundColor = [UIColor clearColor];
         //tableView.backgroundView = nil;
-         tableView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"beijing.png"]];
+         tableView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Stars"]];
         tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
         tableView.tableFooterView = [[UIView alloc]init];
         tableView.bounces = NO;

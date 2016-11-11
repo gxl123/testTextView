@@ -8,8 +8,10 @@
 
 #import "ReadTrainTableViewController.h"
 #import "UICommon.h"
+#import "ArticleDAO.h"
+#import "ReadTrainArticlesTableViewController.h"
 @interface ReadTrainTableViewController (){
-    NSArray * arrayArticles;
+    NSMutableArray * _arrayDir;
 }
 
 @end
@@ -27,7 +29,20 @@
     //左侧按钮
     [UICommon createLeftSlideNavBarBtn:self actionSelector:@selector(presentLeftMenuViewController:)];
     [UICommon setNavigationTitle:self text:NSLocalizedString(@"阅读训练", @"")];
-    
+    _arrayDir = [[NSMutableArray alloc]init];
+    NSArray* _arr = [[ArticleDAO sharedManager] findAll];
+    for (Article* art in _arr) {
+        BOOL bFind=NO;
+        for (Article* art2 in _arrayDir) {
+            if (art2.Dir_ID==art.Dir_ID) {
+                bFind=YES;
+                break;
+            }
+        }
+        if (!bFind) {
+             [_arrayDir addObject:art];
+        }
+    }
 //    ArticleBL* abl= [[ArticleBL alloc]init];
 //    NSArray * arrayArticles= [abl readData];
 }
@@ -40,67 +55,30 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+    return _arrayDir.count;
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
+    static NSString *cellIdentifier = @"MyCell";
+    UITableViewCell *cell = (UITableViewCell *)[tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:cellIdentifier];
+    }
+    Article* ta=[_arrayDir objectAtIndex:indexPath.row];
+    cell.textLabel.text=ta.Dir;
     return cell;
 }
-*/
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    NSInteger index = indexPath.row;
+     ReadTrainArticlesTableViewController* controller=[[ReadTrainArticlesTableViewController alloc]init];
+    controller.article=[_arrayDir objectAtIndex:index];
+    [self.navigationController pushViewController:controller animated:YES];
+ }
 
 @end
