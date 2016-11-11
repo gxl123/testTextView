@@ -8,14 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "TestArticle.h"
-@interface TestQuestionViewController : UIViewController<UIScrollViewDelegate>
+@interface TestQuestionViewController : UIViewController<UIScrollViewDelegate,UITableViewDataSource,UITableViewDelegate>
 
 @property (strong, nonatomic) TestArticle *article;
 @property (strong, nonatomic) UIView *page1;
 @property (strong, nonatomic) UIView *page2;
 @property (strong, nonatomic) UIView *page3;
 
-@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
-@property (weak, nonatomic) IBOutlet UIPageControl *pageControl;
+@property (strong, nonatomic)  UIScrollView *scrollView;
+@property (strong, nonatomic)  UIPageControl *pageControl;
 
 @end

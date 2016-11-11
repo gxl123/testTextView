@@ -40,6 +40,8 @@
 		C83DBCF01DD31B5800CF29C0 /* db1.sql in Resources */ = {isa = PBXBuildFile; fileRef = C83DBCEC1DD31B5800CF29C0 /* db1.sql */; };
 		C83DBCF11DD31B5800CF29C0 /* db1.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = C83DBCED1DD31B5800CF29C0 /* db1.sqlite */; };
 		C83DBCF21DD31B5800CF29C0 /* DBConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = C83DBCEE1DD31B5800CF29C0 /* DBConfig.plist */; };
+		C88D907F1DD568010087D7DE /* 正确.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D907D1DD568010087D7DE /* 正确.jpg */; };
+		C88D90801DD568010087D7DE /* 错误.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D907E1DD568010087D7DE /* 错误.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +101,8 @@
 		C83DBCEC1DD31B5800CF29C0 /* db1.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = db1.sql; sourceTree = "<group>"; };
 		C83DBCED1DD31B5800CF29C0 /* db1.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = db1.sqlite; sourceTree = "<group>"; };
 		C83DBCEE1DD31B5800CF29C0 /* DBConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DBConfig.plist; sourceTree = "<group>"; };
+		C88D907D1DD568010087D7DE /* 正确.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "正确.jpg"; sourceTree = "<group>"; };
+		C88D907E1DD568010087D7DE /* 错误.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "错误.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +233,8 @@
 		C83DBC771DCD7CD900CF29C0 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				C88D907D1DD568010087D7DE /* 正确.jpg */,
+				C88D907E1DD568010087D7DE /* 错误.jpg */,
 				C83DBC811DCDBE0400CF29C0 /* home_icon_cebianlan_selecte.png */,
 				C83DBC7D1DCD855500CF29C0 /* home_icon_cebianlan_normal.png */,
 				C83DBC7E1DCD855500CF29C0 /* home_icon_cebianlan_selected.png */,
@@ -308,12 +314,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C88D90801DD568010087D7DE /* 错误.jpg in Resources */,
 				6D21615B1DC8C9EB00015167 /* LaunchScreen.storyboard in Resources */,
 				C83DBC631DCD711A00CF29C0 /* Images.xcassets in Resources */,
 				C83DBCF11DD31B5800CF29C0 /* db1.sqlite in Resources */,
 				C83DBC801DCD855600CF29C0 /* home_icon_cebianlan_selected.png in Resources */,
 				C83DBCF21DD31B5800CF29C0 /* DBConfig.plist in Resources */,
 				C83DBC821DCDBE0400CF29C0 /* home_icon_cebianlan_selecte.png in Resources */,
+				C88D907F1DD568010087D7DE /* 正确.jpg in Resources */,
 				C83DBC7F1DCD855600CF29C0 /* home_icon_cebianlan_normal.png in Resources */,
 				C83DBCEF1DD31B5800CF29C0 /* create_load.sql in Resources */,
 				6D2161581DC8C9EB00015167 /* Assets.xcassets in Resources */,
