@@ -42,6 +42,134 @@
 		C83DBCF21DD31B5800CF29C0 /* DBConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = C83DBCEE1DD31B5800CF29C0 /* DBConfig.plist */; };
 		C88D907F1DD568010087D7DE /* 正确.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D907D1DD568010087D7DE /* 正确.jpg */; };
 		C88D90801DD568010087D7DE /* 错误.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D907E1DD568010087D7DE /* 错误.jpg */; };
+		C88D90831DD56A470087D7DE /* VisualTrainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C88D90821DD56A470087D7DE /* VisualTrainViewController.m */; };
+		C88D912C1DD56D8B0087D7DE /* 1_1 - 复制.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90851DD56D8B0087D7DE /* 1_1 - 复制.htm */; };
+		C88D912D1DD56D8B0087D7DE /* 1_1.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90861DD56D8B0087D7DE /* 1_1.htm */; };
+		C88D912E1DD56D8B0087D7DE /* 1_1_max.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90871DD56D8B0087D7DE /* 1_1_max.htm */; };
+		C88D912F1DD56D8B0087D7DE /* 1_2.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90881DD56D8B0087D7DE /* 1_2.htm */; };
+		C88D91301DD56D8B0087D7DE /* 1_2_max1.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90891DD56D8B0087D7DE /* 1_2_max1.htm */; };
+		C88D91311DD56D8B0087D7DE /* 1_2_max2.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D908A1DD56D8B0087D7DE /* 1_2_max2.htm */; };
+		C88D91321DD56D8B0087D7DE /* 1_2_max3.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D908B1DD56D8B0087D7DE /* 1_2_max3.htm */; };
+		C88D91331DD56D8B0087D7DE /* 1_3.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D908C1DD56D8B0087D7DE /* 1_3.htm */; };
+		C88D91341DD56D8B0087D7DE /* 1_3_max1.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D908D1DD56D8B0087D7DE /* 1_3_max1.htm */; };
+		C88D91351DD56D8B0087D7DE /* 1_3_max10.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D908E1DD56D8B0087D7DE /* 1_3_max10.htm */; };
+		C88D91361DD56D8B0087D7DE /* 1_3_max11.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D908F1DD56D8B0087D7DE /* 1_3_max11.htm */; };
+		C88D91371DD56D8B0087D7DE /* 1_3_max12.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90901DD56D8B0087D7DE /* 1_3_max12.htm */; };
+		C88D91381DD56D8B0087D7DE /* 1_3_max2.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90911DD56D8B0087D7DE /* 1_3_max2.htm */; };
+		C88D91391DD56D8B0087D7DE /* 1_3_max3.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90921DD56D8B0087D7DE /* 1_3_max3.htm */; };
+		C88D913A1DD56D8B0087D7DE /* 1_3_max4.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90931DD56D8B0087D7DE /* 1_3_max4.htm */; };
+		C88D913B1DD56D8B0087D7DE /* 1_3_max5.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90941DD56D8B0087D7DE /* 1_3_max5.htm */; };
+		C88D913C1DD56D8B0087D7DE /* 1_3_max6.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90951DD56D8B0087D7DE /* 1_3_max6.htm */; };
+		C88D913D1DD56D8B0087D7DE /* 1_3_max7.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90961DD56D8B0087D7DE /* 1_3_max7.htm */; };
+		C88D913E1DD56D8B0087D7DE /* 1_3_max8.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90971DD56D8B0087D7DE /* 1_3_max8.htm */; };
+		C88D913F1DD56D8B0087D7DE /* 1_3_max9.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90981DD56D8B0087D7DE /* 1_3_max9.htm */; };
+		C88D91401DD56D8B0087D7DE /* 1_4.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90991DD56D8B0087D7DE /* 1_4.htm */; };
+		C88D91411DD56D8B0087D7DE /* 1_4_max1.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D909A1DD56D8B0087D7DE /* 1_4_max1.htm */; };
+		C88D91421DD56D8B0087D7DE /* 1_4_max2.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D909B1DD56D8B0087D7DE /* 1_4_max2.htm */; };
+		C88D91431DD56D8B0087D7DE /* 1_4_max3.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D909C1DD56D8B0087D7DE /* 1_4_max3.htm */; };
+		C88D91441DD56D8B0087D7DE /* 1_4_max4.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D909D1DD56D8B0087D7DE /* 1_4_max4.htm */; };
+		C88D91451DD56D8B0087D7DE /* 1_5.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D909E1DD56D8B0087D7DE /* 1_5.htm */; };
+		C88D91461DD56D8B0087D7DE /* 2_1.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D909F1DD56D8B0087D7DE /* 2_1.htm */; };
+		C88D91471DD56D8B0087D7DE /* 2_2.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90A01DD56D8B0087D7DE /* 2_2.htm */; };
+		C88D91481DD56D8B0087D7DE /* 2_3.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90A11DD56D8B0087D7DE /* 2_3.htm */; };
+		C88D91491DD56D8B0087D7DE /* 3_1.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90A21DD56D8B0087D7DE /* 3_1.htm */; };
+		C88D914A1DD56D8B0087D7DE /* 3_2.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90A31DD56D8B0087D7DE /* 3_2.htm */; };
+		C88D914B1DD56D8B0087D7DE /* 3_2_max.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90A41DD56D8B0087D7DE /* 3_2_max.htm */; };
+		C88D914C1DD56D8B0087D7DE /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90A61DD56D8B0087D7DE /* 1.jpg */; };
+		C88D914D1DD56D8B0087D7DE /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90A71DD56D8B0087D7DE /* 10.jpg */; };
+		C88D914E1DD56D8B0087D7DE /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90A81DD56D8B0087D7DE /* 11.jpg */; };
+		C88D914F1DD56D8B0087D7DE /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90A91DD56D8B0087D7DE /* 12.jpg */; };
+		C88D91501DD56D8B0087D7DE /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90AA1DD56D8B0087D7DE /* 13.jpg */; };
+		C88D91511DD56D8B0087D7DE /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90AB1DD56D8B0087D7DE /* 14.jpg */; };
+		C88D91521DD56D8B0087D7DE /* 15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90AC1DD56D8B0087D7DE /* 15.jpg */; };
+		C88D91531DD56D8B0087D7DE /* 16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90AD1DD56D8B0087D7DE /* 16.jpg */; };
+		C88D91541DD56D8B0087D7DE /* 17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90AE1DD56D8B0087D7DE /* 17.jpg */; };
+		C88D91551DD56D8B0087D7DE /* 18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90AF1DD56D8B0087D7DE /* 18.jpg */; };
+		C88D91561DD56D8B0087D7DE /* 19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90B01DD56D8B0087D7DE /* 19.jpg */; };
+		C88D91571DD56D8B0087D7DE /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90B11DD56D8B0087D7DE /* 2.jpg */; };
+		C88D91581DD56D8B0087D7DE /* 20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90B21DD56D8B0087D7DE /* 20.jpg */; };
+		C88D91591DD56D8B0087D7DE /* 21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90B31DD56D8B0087D7DE /* 21.jpg */; };
+		C88D915A1DD56D8B0087D7DE /* 22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90B41DD56D8B0087D7DE /* 22.jpg */; };
+		C88D915B1DD56D8B0087D7DE /* 23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90B51DD56D8B0087D7DE /* 23.jpg */; };
+		C88D915C1DD56D8B0087D7DE /* 24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90B61DD56D8B0087D7DE /* 24.jpg */; };
+		C88D915D1DD56D8B0087D7DE /* 25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90B71DD56D8B0087D7DE /* 25.jpg */; };
+		C88D915E1DD56D8B0087D7DE /* 26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90B81DD56D8B0087D7DE /* 26.jpg */; };
+		C88D915F1DD56D8B0087D7DE /* 27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90B91DD56D8B0087D7DE /* 27.jpg */; };
+		C88D91601DD56D8B0087D7DE /* 28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90BA1DD56D8B0087D7DE /* 28.jpg */; };
+		C88D91611DD56D8B0087D7DE /* 29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90BB1DD56D8B0087D7DE /* 29.jpg */; };
+		C88D91621DD56D8B0087D7DE /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90BC1DD56D8B0087D7DE /* 3.jpg */; };
+		C88D91631DD56D8B0087D7DE /* 30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90BD1DD56D8B0087D7DE /* 30.jpg */; };
+		C88D91641DD56D8B0087D7DE /* 3dmax-1.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90BE1DD56D8B0087D7DE /* 3dmax-1.htm */; };
+		C88D91651DD56D8B0087D7DE /* 3dmax-10.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90BF1DD56D8B0087D7DE /* 3dmax-10.htm */; };
+		C88D91661DD56D8B0087D7DE /* 3dmax-11.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90C01DD56D8B0087D7DE /* 3dmax-11.htm */; };
+		C88D91671DD56D8B0087D7DE /* 3dmax-12.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90C11DD56D8B0087D7DE /* 3dmax-12.htm */; };
+		C88D91681DD56D8B0087D7DE /* 3dmax-13.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90C21DD56D8B0087D7DE /* 3dmax-13.htm */; };
+		C88D91691DD56D8B0087D7DE /* 3dmax-14.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90C31DD56D8B0087D7DE /* 3dmax-14.htm */; };
+		C88D916A1DD56D8B0087D7DE /* 3dmax-15.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90C41DD56D8B0087D7DE /* 3dmax-15.htm */; };
+		C88D916B1DD56D8B0087D7DE /* 3dmax-16.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90C51DD56D8B0087D7DE /* 3dmax-16.htm */; };
+		C88D916C1DD56D8B0087D7DE /* 3dmax-17.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90C61DD56D8B0087D7DE /* 3dmax-17.htm */; };
+		C88D916D1DD56D8B0087D7DE /* 3dmax-18.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90C71DD56D8B0087D7DE /* 3dmax-18.htm */; };
+		C88D916E1DD56D8B0087D7DE /* 3dmax-19.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90C81DD56D8B0087D7DE /* 3dmax-19.htm */; };
+		C88D916F1DD56D8B0087D7DE /* 3dmax-2.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90C91DD56D8B0087D7DE /* 3dmax-2.htm */; };
+		C88D91701DD56D8B0087D7DE /* 3dmax-20.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90CA1DD56D8B0087D7DE /* 3dmax-20.htm */; };
+		C88D91711DD56D8B0087D7DE /* 3dmax-21.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90CB1DD56D8B0087D7DE /* 3dmax-21.htm */; };
+		C88D91721DD56D8B0087D7DE /* 3dmax-22.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90CC1DD56D8B0087D7DE /* 3dmax-22.htm */; };
+		C88D91731DD56D8B0087D7DE /* 3dmax-23.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90CD1DD56D8B0087D7DE /* 3dmax-23.htm */; };
+		C88D91741DD56D8B0087D7DE /* 3dmax-24.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90CE1DD56D8B0087D7DE /* 3dmax-24.htm */; };
+		C88D91751DD56D8B0087D7DE /* 3dmax-25.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90CF1DD56D8B0087D7DE /* 3dmax-25.htm */; };
+		C88D91761DD56D8B0087D7DE /* 3dmax-26.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90D01DD56D8B0087D7DE /* 3dmax-26.htm */; };
+		C88D91771DD56D8B0087D7DE /* 3dmax-27.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90D11DD56D8B0087D7DE /* 3dmax-27.htm */; };
+		C88D91781DD56D8B0087D7DE /* 3dmax-28.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90D21DD56D8B0087D7DE /* 3dmax-28.htm */; };
+		C88D91791DD56D8B0087D7DE /* 3dmax-29.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90D31DD56D8B0087D7DE /* 3dmax-29.htm */; };
+		C88D917A1DD56D8B0087D7DE /* 3dmax-3.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90D41DD56D8B0087D7DE /* 3dmax-3.htm */; };
+		C88D917B1DD56D8B0087D7DE /* 3dmax-30.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90D51DD56D8B0087D7DE /* 3dmax-30.htm */; };
+		C88D917C1DD56D8B0087D7DE /* 3dmax-4.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90D61DD56D8B0087D7DE /* 3dmax-4.htm */; };
+		C88D917D1DD56D8B0087D7DE /* 3dmax-5.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90D71DD56D8B0087D7DE /* 3dmax-5.htm */; };
+		C88D917E1DD56D8B0087D7DE /* 3dmax-6.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90D81DD56D8B0087D7DE /* 3dmax-6.htm */; };
+		C88D917F1DD56D8B0087D7DE /* 3dmax-7.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90D91DD56D8B0087D7DE /* 3dmax-7.htm */; };
+		C88D91801DD56D8B0087D7DE /* 3dmax-8.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90DA1DD56D8B0087D7DE /* 3dmax-8.htm */; };
+		C88D91811DD56D8B0087D7DE /* 3dmax-9.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90DB1DD56D8B0087D7DE /* 3dmax-9.htm */; };
+		C88D91821DD56D8B0087D7DE /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90DC1DD56D8B0087D7DE /* 4.jpg */; };
+		C88D91831DD56D8B0087D7DE /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90DD1DD56D8B0087D7DE /* 5.jpg */; };
+		C88D91841DD56D8B0087D7DE /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90DE1DD56D8B0087D7DE /* 6.jpg */; };
+		C88D91851DD56D8B0087D7DE /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90DF1DD56D8B0087D7DE /* 7.jpg */; };
+		C88D91861DD56D8B0087D7DE /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90E01DD56D8B0087D7DE /* 8.jpg */; };
+		C88D91871DD56D8B0087D7DE /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C88D90E11DD56D8B0087D7DE /* 9.jpg */; };
+		C88D91881DD56D8B0087D7DE /* 4_1.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90E21DD56D8B0087D7DE /* 4_1.htm */; };
+		C88D91891DD56D8B0087D7DE /* 4_2.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90E31DD56D8B0087D7DE /* 4_2.htm */; };
+		C88D918A1DD56D8B0087D7DE /* 4_3.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90E41DD56D8B0087D7DE /* 4_3.htm */; };
+		C88D918B1DD56D8B0087D7DE /* 4_4.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90E51DD56D8B0087D7DE /* 4_4.htm */; };
+		C88D918C1DD56D8B0087D7DE /* 4_5.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90E61DD56D8B0087D7DE /* 4_5.htm */; };
+		C88D918D1DD56D8B0087D7DE /* 5_1.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90E71DD56D8B0087D7DE /* 5_1.htm */; };
+		C88D918E1DD56D8B0087D7DE /* 5_2.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90E81DD56D8B0087D7DE /* 5_2.htm */; };
+		C88D918F1DD56D8B0087D7DE /* 5_3.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90E91DD56D8B0087D7DE /* 5_3.htm */; };
+		C88D91901DD56D8B0087D7DE /* 6_1.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D90EA1DD56D8B0087D7DE /* 6_1.htm */; };
+		C88D91911DD56D8B0087D7DE /* 一点凝视训练1.exe in Resources */ = {isa = PBXBuildFile; fileRef = C88D90EC1DD56D8B0087D7DE /* 一点凝视训练1.exe */; };
+		C88D91921DD56D8B0087D7DE /* 扩大视幅训练2.exe in Resources */ = {isa = PBXBuildFile; fileRef = C88D90ED1DD56D8B0087D7DE /* 扩大视幅训练2.exe */; };
+		C88D91931DD56D8B0087D7DE /* 扩大视幅训练3.exe in Resources */ = {isa = PBXBuildFile; fileRef = C88D90EE1DD56D8B0087D7DE /* 扩大视幅训练3.exe */; };
+		C88D91941DD56D8B0087D7DE /* 扩大视野1.exe in Resources */ = {isa = PBXBuildFile; fileRef = C88D90EF1DD56D8B0087D7DE /* 扩大视野1.exe */; };
+		C88D91951DD56D8B0087D7DE /* 扩大视野2-del.exe in Resources */ = {isa = PBXBuildFile; fileRef = C88D90F01DD56D8B0087D7DE /* 扩大视野2-del.exe */; };
+		C88D91961DD56D8B0087D7DE /* 扩大视野横向.exe in Resources */ = {isa = PBXBuildFile; fileRef = C88D90F11DD56D8B0087D7DE /* 扩大视野横向.exe */; };
+		C88D91971DD56D8B0087D7DE /* 扩大视野纵向.exe in Resources */ = {isa = PBXBuildFile; fileRef = C88D90F21DD56D8B0087D7DE /* 扩大视野纵向.exe */; };
+		C88D91981DD56D8B0087D7DE /* 横向快速移动训练.exe in Resources */ = {isa = PBXBuildFile; fileRef = C88D90F31DD56D8B0087D7DE /* 横向快速移动训练.exe */; };
+		C88D91991DD56D8B0087D7DE /* 眼球训练1单圆.exe in Resources */ = {isa = PBXBuildFile; fileRef = C88D90F41DD56D8B0087D7DE /* 眼球训练1单圆.exe */; };
+		C88D919A1DD56D8B0087D7DE /* 眼球训练2双圆.exe in Resources */ = {isa = PBXBuildFile; fileRef = C88D90F51DD56D8B0087D7DE /* 眼球训练2双圆.exe */; };
+		C88D919B1DD56D8B0087D7DE /* 眼球训练3圆滑曲线.exe in Resources */ = {isa = PBXBuildFile; fileRef = C88D90F61DD56D8B0087D7DE /* 眼球训练3圆滑曲线.exe */; };
+		C88D919C1DD56D8B0087D7DE /* 眼球训练3斜.exe in Resources */ = {isa = PBXBuildFile; fileRef = C88D90F71DD56D8B0087D7DE /* 眼球训练3斜.exe */; };
+		C88D919D1DD56D8B0087D7DE /* 纵向快速移动训练.exe in Resources */ = {isa = PBXBuildFile; fileRef = C88D90F81DD56D8B0087D7DE /* 纵向快速移动训练.exe */; };
+		C88D919E1DD56D8B0087D7DE /* 舒尔特表1.exe in Resources */ = {isa = PBXBuildFile; fileRef = C88D90F91DD56D8B0087D7DE /* 舒尔特表1.exe */; };
+		C88D919F1DD56D8B0087D7DE /* 舒尔特表2.exe in Resources */ = {isa = PBXBuildFile; fileRef = C88D90FA1DD56D8B0087D7DE /* 舒尔特表2.exe */; };
+		C88D91A01DD56D8B0087D7DE /* 舒尔特表3.exe in Resources */ = {isa = PBXBuildFile; fileRef = C88D90FB1DD56D8B0087D7DE /* 舒尔特表3.exe */; };
+		C88D91C51DD56D8B0087D7DE /* index.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D91221DD56D8B0087D7DE /* index.htm */; };
+		C88D91C61DD56D8B0087D7DE /* main.htm in Resources */ = {isa = PBXBuildFile; fileRef = C88D91231DD56D8B0087D7DE /* main.htm */; };
+		C88D91C71DD56D8B0087D7DE /* 一分钟阅读记忆训练.ppt in Resources */ = {isa = PBXBuildFile; fileRef = C88D91251DD56D8B0087D7DE /* 一分钟阅读记忆训练.ppt */; };
+		C88D91C81DD56D8B0087D7DE /* 你应该知道的世界名著.ppt in Resources */ = {isa = PBXBuildFile; fileRef = C88D91261DD56D8B0087D7DE /* 你应该知道的世界名著.ppt */; };
+		C88D91C91DD56D8B0087D7DE /* 哲理小故事.ppt in Resources */ = {isa = PBXBuildFile; fileRef = C88D91271DD56D8B0087D7DE /* 哲理小故事.ppt */; };
+		C88D91CA1DD56D8B0087D7DE /* 应该知道的史书（部分）.ppt in Resources */ = {isa = PBXBuildFile; fileRef = C88D91281DD56D8B0087D7DE /* 应该知道的史书（部分）.ppt */; };
+		C88D91CB1DD56D8B0087D7DE /* 最新眼脑直眏.ppt in Resources */ = {isa = PBXBuildFile; fileRef = C88D91291DD56D8B0087D7DE /* 最新眼脑直眏.ppt */; };
+		C88D91CC1DD56D8B0087D7DE /* 眼脑直影训练.ppt in Resources */ = {isa = PBXBuildFile; fileRef = C88D912A1DD56D8B0087D7DE /* 眼脑直影训练.ppt */; };
+		C88D91CD1DD56D8B0087D7DE /* 请说出科普作者及国籍.ppt in Resources */ = {isa = PBXBuildFile; fileRef = C88D912B1DD56D8B0087D7DE /* 请说出科普作者及国籍.ppt */; };
+		C88D91CF1DD56FA30087D7DE /* images in Resources */ = {isa = PBXBuildFile; fileRef = C88D91CE1DD56FA30087D7DE /* images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -103,6 +231,135 @@
 		C83DBCEE1DD31B5800CF29C0 /* DBConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DBConfig.plist; sourceTree = "<group>"; };
 		C88D907D1DD568010087D7DE /* 正确.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "正确.jpg"; sourceTree = "<group>"; };
 		C88D907E1DD568010087D7DE /* 错误.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "错误.jpg"; sourceTree = "<group>"; };
+		C88D90811DD56A470087D7DE /* VisualTrainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualTrainViewController.h; sourceTree = "<group>"; };
+		C88D90821DD56A470087D7DE /* VisualTrainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisualTrainViewController.m; sourceTree = "<group>"; };
+		C88D90851DD56D8B0087D7DE /* 1_1 - 复制.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "1_1 - 复制.htm"; sourceTree = "<group>"; };
+		C88D90861DD56D8B0087D7DE /* 1_1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1_1.htm; sourceTree = "<group>"; };
+		C88D90871DD56D8B0087D7DE /* 1_1_max.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1_1_max.htm; sourceTree = "<group>"; };
+		C88D90881DD56D8B0087D7DE /* 1_2.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1_2.htm; sourceTree = "<group>"; };
+		C88D90891DD56D8B0087D7DE /* 1_2_max1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1_2_max1.htm; sourceTree = "<group>"; };
+		C88D908A1DD56D8B0087D7DE /* 1_2_max2.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1_2_max2.htm; sourceTree = "<group>"; };
+		C88D908B1DD56D8B0087D7DE /* 1_2_max3.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1_2_max3.htm; sourceTree = "<group>"; };
+		C88D908C1DD56D8B0087D7DE /* 1_3.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1_3.htm; sourceTree = "<group>"; };
+		C88D908D1DD56D8B0087D7DE /* 1_3_max1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1_3_max1.htm; sourceTree = "<group>"; };
+		C88D908E1DD56D8B0087D7DE /* 1_3_max10.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1_3_max10.htm; sourceTree = "<group>"; };
+		C88D908F1DD56D8B0087D7DE /* 1_3_max11.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1_3_max11.htm; sourceTree = "<group>"; };
+		C88D90901DD56D8B0087D7DE /* 1_3_max12.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1_3_max12.htm; sourceTree = "<group>"; };
+		C88D90911DD56D8B0087D7DE /* 1_3_max2.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1_3_max2.htm; sourceTree = "<group>"; };
+		C88D90921DD56D8B0087D7DE /* 1_3_max3.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1_3_max3.htm; sourceTree = "<group>"; };
+		C88D90931DD56D8B0087D7DE /* 1_3_max4.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1_3_max4.htm; sourceTree = "<group>"; };
+		C88D90941DD56D8B0087D7DE /* 1_3_max5.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1_3_max5.htm; sourceTree = "<group>"; };
+		C88D90951DD56D8B0087D7DE /* 1_3_max6.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1_3_max6.htm; sourceTree = "<group>"; };
+		C88D90961DD56D8B0087D7DE /* 1_3_max7.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1_3_max7.htm; sourceTree = "<group>"; };
+		C88D90971DD56D8B0087D7DE /* 1_3_max8.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1_3_max8.htm; sourceTree = "<group>"; };
+		C88D90981DD56D8B0087D7DE /* 1_3_max9.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1_3_max9.htm; sourceTree = "<group>"; };
+		C88D90991DD56D8B0087D7DE /* 1_4.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1_4.htm; sourceTree = "<group>"; };
+		C88D909A1DD56D8B0087D7DE /* 1_4_max1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1_4_max1.htm; sourceTree = "<group>"; };
+		C88D909B1DD56D8B0087D7DE /* 1_4_max2.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1_4_max2.htm; sourceTree = "<group>"; };
+		C88D909C1DD56D8B0087D7DE /* 1_4_max3.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1_4_max3.htm; sourceTree = "<group>"; };
+		C88D909D1DD56D8B0087D7DE /* 1_4_max4.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1_4_max4.htm; sourceTree = "<group>"; };
+		C88D909E1DD56D8B0087D7DE /* 1_5.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1_5.htm; sourceTree = "<group>"; };
+		C88D909F1DD56D8B0087D7DE /* 2_1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 2_1.htm; sourceTree = "<group>"; };
+		C88D90A01DD56D8B0087D7DE /* 2_2.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 2_2.htm; sourceTree = "<group>"; };
+		C88D90A11DD56D8B0087D7DE /* 2_3.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 2_3.htm; sourceTree = "<group>"; };
+		C88D90A21DD56D8B0087D7DE /* 3_1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 3_1.htm; sourceTree = "<group>"; };
+		C88D90A31DD56D8B0087D7DE /* 3_2.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 3_2.htm; sourceTree = "<group>"; };
+		C88D90A41DD56D8B0087D7DE /* 3_2_max.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 3_2_max.htm; sourceTree = "<group>"; };
+		C88D90A61DD56D8B0087D7DE /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		C88D90A71DD56D8B0087D7DE /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		C88D90A81DD56D8B0087D7DE /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		C88D90A91DD56D8B0087D7DE /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		C88D90AA1DD56D8B0087D7DE /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
+		C88D90AB1DD56D8B0087D7DE /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
+		C88D90AC1DD56D8B0087D7DE /* 15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.jpg; sourceTree = "<group>"; };
+		C88D90AD1DD56D8B0087D7DE /* 16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16.jpg; sourceTree = "<group>"; };
+		C88D90AE1DD56D8B0087D7DE /* 17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 17.jpg; sourceTree = "<group>"; };
+		C88D90AF1DD56D8B0087D7DE /* 18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 18.jpg; sourceTree = "<group>"; };
+		C88D90B01DD56D8B0087D7DE /* 19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 19.jpg; sourceTree = "<group>"; };
+		C88D90B11DD56D8B0087D7DE /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		C88D90B21DD56D8B0087D7DE /* 20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20.jpg; sourceTree = "<group>"; };
+		C88D90B31DD56D8B0087D7DE /* 21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 21.jpg; sourceTree = "<group>"; };
+		C88D90B41DD56D8B0087D7DE /* 22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.jpg; sourceTree = "<group>"; };
+		C88D90B51DD56D8B0087D7DE /* 23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 23.jpg; sourceTree = "<group>"; };
+		C88D90B61DD56D8B0087D7DE /* 24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 24.jpg; sourceTree = "<group>"; };
+		C88D90B71DD56D8B0087D7DE /* 25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 25.jpg; sourceTree = "<group>"; };
+		C88D90B81DD56D8B0087D7DE /* 26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 26.jpg; sourceTree = "<group>"; };
+		C88D90B91DD56D8B0087D7DE /* 27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 27.jpg; sourceTree = "<group>"; };
+		C88D90BA1DD56D8B0087D7DE /* 28.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 28.jpg; sourceTree = "<group>"; };
+		C88D90BB1DD56D8B0087D7DE /* 29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 29.jpg; sourceTree = "<group>"; };
+		C88D90BC1DD56D8B0087D7DE /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		C88D90BD1DD56D8B0087D7DE /* 30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 30.jpg; sourceTree = "<group>"; };
+		C88D90BE1DD56D8B0087D7DE /* 3dmax-1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-1.htm"; sourceTree = "<group>"; };
+		C88D90BF1DD56D8B0087D7DE /* 3dmax-10.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-10.htm"; sourceTree = "<group>"; };
+		C88D90C01DD56D8B0087D7DE /* 3dmax-11.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-11.htm"; sourceTree = "<group>"; };
+		C88D90C11DD56D8B0087D7DE /* 3dmax-12.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-12.htm"; sourceTree = "<group>"; };
+		C88D90C21DD56D8B0087D7DE /* 3dmax-13.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-13.htm"; sourceTree = "<group>"; };
+		C88D90C31DD56D8B0087D7DE /* 3dmax-14.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-14.htm"; sourceTree = "<group>"; };
+		C88D90C41DD56D8B0087D7DE /* 3dmax-15.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-15.htm"; sourceTree = "<group>"; };
+		C88D90C51DD56D8B0087D7DE /* 3dmax-16.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-16.htm"; sourceTree = "<group>"; };
+		C88D90C61DD56D8B0087D7DE /* 3dmax-17.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-17.htm"; sourceTree = "<group>"; };
+		C88D90C71DD56D8B0087D7DE /* 3dmax-18.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-18.htm"; sourceTree = "<group>"; };
+		C88D90C81DD56D8B0087D7DE /* 3dmax-19.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-19.htm"; sourceTree = "<group>"; };
+		C88D90C91DD56D8B0087D7DE /* 3dmax-2.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-2.htm"; sourceTree = "<group>"; };
+		C88D90CA1DD56D8B0087D7DE /* 3dmax-20.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-20.htm"; sourceTree = "<group>"; };
+		C88D90CB1DD56D8B0087D7DE /* 3dmax-21.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-21.htm"; sourceTree = "<group>"; };
+		C88D90CC1DD56D8B0087D7DE /* 3dmax-22.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-22.htm"; sourceTree = "<group>"; };
+		C88D90CD1DD56D8B0087D7DE /* 3dmax-23.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-23.htm"; sourceTree = "<group>"; };
+		C88D90CE1DD56D8B0087D7DE /* 3dmax-24.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-24.htm"; sourceTree = "<group>"; };
+		C88D90CF1DD56D8B0087D7DE /* 3dmax-25.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-25.htm"; sourceTree = "<group>"; };
+		C88D90D01DD56D8B0087D7DE /* 3dmax-26.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-26.htm"; sourceTree = "<group>"; };
+		C88D90D11DD56D8B0087D7DE /* 3dmax-27.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-27.htm"; sourceTree = "<group>"; };
+		C88D90D21DD56D8B0087D7DE /* 3dmax-28.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-28.htm"; sourceTree = "<group>"; };
+		C88D90D31DD56D8B0087D7DE /* 3dmax-29.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-29.htm"; sourceTree = "<group>"; };
+		C88D90D41DD56D8B0087D7DE /* 3dmax-3.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-3.htm"; sourceTree = "<group>"; };
+		C88D90D51DD56D8B0087D7DE /* 3dmax-30.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-30.htm"; sourceTree = "<group>"; };
+		C88D90D61DD56D8B0087D7DE /* 3dmax-4.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-4.htm"; sourceTree = "<group>"; };
+		C88D90D71DD56D8B0087D7DE /* 3dmax-5.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-5.htm"; sourceTree = "<group>"; };
+		C88D90D81DD56D8B0087D7DE /* 3dmax-6.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-6.htm"; sourceTree = "<group>"; };
+		C88D90D91DD56D8B0087D7DE /* 3dmax-7.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-7.htm"; sourceTree = "<group>"; };
+		C88D90DA1DD56D8B0087D7DE /* 3dmax-8.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-8.htm"; sourceTree = "<group>"; };
+		C88D90DB1DD56D8B0087D7DE /* 3dmax-9.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "3dmax-9.htm"; sourceTree = "<group>"; };
+		C88D90DC1DD56D8B0087D7DE /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		C88D90DD1DD56D8B0087D7DE /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		C88D90DE1DD56D8B0087D7DE /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		C88D90DF1DD56D8B0087D7DE /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		C88D90E01DD56D8B0087D7DE /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		C88D90E11DD56D8B0087D7DE /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		C88D90E21DD56D8B0087D7DE /* 4_1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 4_1.htm; sourceTree = "<group>"; };
+		C88D90E31DD56D8B0087D7DE /* 4_2.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 4_2.htm; sourceTree = "<group>"; };
+		C88D90E41DD56D8B0087D7DE /* 4_3.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 4_3.htm; sourceTree = "<group>"; };
+		C88D90E51DD56D8B0087D7DE /* 4_4.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 4_4.htm; sourceTree = "<group>"; };
+		C88D90E61DD56D8B0087D7DE /* 4_5.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 4_5.htm; sourceTree = "<group>"; };
+		C88D90E71DD56D8B0087D7DE /* 5_1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 5_1.htm; sourceTree = "<group>"; };
+		C88D90E81DD56D8B0087D7DE /* 5_2.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 5_2.htm; sourceTree = "<group>"; };
+		C88D90E91DD56D8B0087D7DE /* 5_3.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 5_3.htm; sourceTree = "<group>"; };
+		C88D90EA1DD56D8B0087D7DE /* 6_1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 6_1.htm; sourceTree = "<group>"; };
+		C88D90EC1DD56D8B0087D7DE /* 一点凝视训练1.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "一点凝视训练1.exe"; sourceTree = "<group>"; };
+		C88D90ED1DD56D8B0087D7DE /* 扩大视幅训练2.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "扩大视幅训练2.exe"; sourceTree = "<group>"; };
+		C88D90EE1DD56D8B0087D7DE /* 扩大视幅训练3.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "扩大视幅训练3.exe"; sourceTree = "<group>"; };
+		C88D90EF1DD56D8B0087D7DE /* 扩大视野1.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "扩大视野1.exe"; sourceTree = "<group>"; };
+		C88D90F01DD56D8B0087D7DE /* 扩大视野2-del.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "扩大视野2-del.exe"; sourceTree = "<group>"; };
+		C88D90F11DD56D8B0087D7DE /* 扩大视野横向.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "扩大视野横向.exe"; sourceTree = "<group>"; };
+		C88D90F21DD56D8B0087D7DE /* 扩大视野纵向.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "扩大视野纵向.exe"; sourceTree = "<group>"; };
+		C88D90F31DD56D8B0087D7DE /* 横向快速移动训练.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "横向快速移动训练.exe"; sourceTree = "<group>"; };
+		C88D90F41DD56D8B0087D7DE /* 眼球训练1单圆.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "眼球训练1单圆.exe"; sourceTree = "<group>"; };
+		C88D90F51DD56D8B0087D7DE /* 眼球训练2双圆.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "眼球训练2双圆.exe"; sourceTree = "<group>"; };
+		C88D90F61DD56D8B0087D7DE /* 眼球训练3圆滑曲线.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "眼球训练3圆滑曲线.exe"; sourceTree = "<group>"; };
+		C88D90F71DD56D8B0087D7DE /* 眼球训练3斜.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "眼球训练3斜.exe"; sourceTree = "<group>"; };
+		C88D90F81DD56D8B0087D7DE /* 纵向快速移动训练.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "纵向快速移动训练.exe"; sourceTree = "<group>"; };
+		C88D90F91DD56D8B0087D7DE /* 舒尔特表1.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "舒尔特表1.exe"; sourceTree = "<group>"; };
+		C88D90FA1DD56D8B0087D7DE /* 舒尔特表2.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "舒尔特表2.exe"; sourceTree = "<group>"; };
+		C88D90FB1DD56D8B0087D7DE /* 舒尔特表3.exe */ = {isa = PBXFileReference; lastKnownFileType = file; path = "舒尔特表3.exe"; sourceTree = "<group>"; };
+		C88D91221DD56D8B0087D7DE /* index.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.htm; sourceTree = "<group>"; };
+		C88D91231DD56D8B0087D7DE /* main.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = main.htm; sourceTree = "<group>"; };
+		C88D91251DD56D8B0087D7DE /* 一分钟阅读记忆训练.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "一分钟阅读记忆训练.ppt"; sourceTree = "<group>"; };
+		C88D91261DD56D8B0087D7DE /* 你应该知道的世界名著.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "你应该知道的世界名著.ppt"; sourceTree = "<group>"; };
+		C88D91271DD56D8B0087D7DE /* 哲理小故事.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "哲理小故事.ppt"; sourceTree = "<group>"; };
+		C88D91281DD56D8B0087D7DE /* 应该知道的史书（部分）.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "应该知道的史书（部分）.ppt"; sourceTree = "<group>"; };
+		C88D91291DD56D8B0087D7DE /* 最新眼脑直眏.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "最新眼脑直眏.ppt"; sourceTree = "<group>"; };
+		C88D912A1DD56D8B0087D7DE /* 眼脑直影训练.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "眼脑直影训练.ppt"; sourceTree = "<group>"; };
+		C88D912B1DD56D8B0087D7DE /* 请说出科普作者及国籍.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "请说出科普作者及国籍.ppt"; sourceTree = "<group>"; };
+		C88D91CE1DD56FA30087D7DE /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +395,7 @@
 		6D21614A1DC8C9EB00015167 /* testTextView */ = {
 			isa = PBXGroup;
 			children = (
+				C88D90841DD56D8B0087D7DE /* 视觉训练 */,
 				C83DBCEA1DD31B5800CF29C0 /* DBFile */,
 				C83DBC771DCD7CD900CF29C0 /* Images */,
 				C83DBC6D1DCD755D00CF29C0 /* LogEngine */,
@@ -155,6 +413,8 @@
 				C82185DB1DD43F0E0094128F /* TestQuestionViewController.xib */,
 				C82185DE1DD43F1E0094128F /* TestPageTableViewController.h */,
 				C82185DF1DD43F1E0094128F /* TestPageTableViewController.m */,
+				C88D90811DD56A470087D7DE /* VisualTrainViewController.h */,
+				C88D90821DD56A470087D7DE /* VisualTrainViewController.m */,
 				C83DBC6A1DCD734C00CF29C0 /* AboutTableViewController.h */,
 				C83DBC6B1DCD734C00CF29C0 /* AboutTableViewController.m */,
 				C83DBC741DCD75AE00CF29C0 /* ToolCommon.h */,
@@ -255,6 +515,164 @@
 			path = ../../DBFile;
 			sourceTree = "<group>";
 		};
+		C88D90841DD56D8B0087D7DE /* 视觉训练 */ = {
+			isa = PBXGroup;
+			children = (
+				C88D91CE1DD56FA30087D7DE /* images */,
+				C88D90851DD56D8B0087D7DE /* 1_1 - 复制.htm */,
+				C88D90861DD56D8B0087D7DE /* 1_1.htm */,
+				C88D90871DD56D8B0087D7DE /* 1_1_max.htm */,
+				C88D90881DD56D8B0087D7DE /* 1_2.htm */,
+				C88D90891DD56D8B0087D7DE /* 1_2_max1.htm */,
+				C88D908A1DD56D8B0087D7DE /* 1_2_max2.htm */,
+				C88D908B1DD56D8B0087D7DE /* 1_2_max3.htm */,
+				C88D908C1DD56D8B0087D7DE /* 1_3.htm */,
+				C88D908D1DD56D8B0087D7DE /* 1_3_max1.htm */,
+				C88D908E1DD56D8B0087D7DE /* 1_3_max10.htm */,
+				C88D908F1DD56D8B0087D7DE /* 1_3_max11.htm */,
+				C88D90901DD56D8B0087D7DE /* 1_3_max12.htm */,
+				C88D90911DD56D8B0087D7DE /* 1_3_max2.htm */,
+				C88D90921DD56D8B0087D7DE /* 1_3_max3.htm */,
+				C88D90931DD56D8B0087D7DE /* 1_3_max4.htm */,
+				C88D90941DD56D8B0087D7DE /* 1_3_max5.htm */,
+				C88D90951DD56D8B0087D7DE /* 1_3_max6.htm */,
+				C88D90961DD56D8B0087D7DE /* 1_3_max7.htm */,
+				C88D90971DD56D8B0087D7DE /* 1_3_max8.htm */,
+				C88D90981DD56D8B0087D7DE /* 1_3_max9.htm */,
+				C88D90991DD56D8B0087D7DE /* 1_4.htm */,
+				C88D909A1DD56D8B0087D7DE /* 1_4_max1.htm */,
+				C88D909B1DD56D8B0087D7DE /* 1_4_max2.htm */,
+				C88D909C1DD56D8B0087D7DE /* 1_4_max3.htm */,
+				C88D909D1DD56D8B0087D7DE /* 1_4_max4.htm */,
+				C88D909E1DD56D8B0087D7DE /* 1_5.htm */,
+				C88D909F1DD56D8B0087D7DE /* 2_1.htm */,
+				C88D90A01DD56D8B0087D7DE /* 2_2.htm */,
+				C88D90A11DD56D8B0087D7DE /* 2_3.htm */,
+				C88D90A21DD56D8B0087D7DE /* 3_1.htm */,
+				C88D90A31DD56D8B0087D7DE /* 3_2.htm */,
+				C88D90A41DD56D8B0087D7DE /* 3_2_max.htm */,
+				C88D90A51DD56D8B0087D7DE /* 3d */,
+				C88D90E21DD56D8B0087D7DE /* 4_1.htm */,
+				C88D90E31DD56D8B0087D7DE /* 4_2.htm */,
+				C88D90E41DD56D8B0087D7DE /* 4_3.htm */,
+				C88D90E51DD56D8B0087D7DE /* 4_4.htm */,
+				C88D90E61DD56D8B0087D7DE /* 4_5.htm */,
+				C88D90E71DD56D8B0087D7DE /* 5_1.htm */,
+				C88D90E81DD56D8B0087D7DE /* 5_2.htm */,
+				C88D90E91DD56D8B0087D7DE /* 5_3.htm */,
+				C88D90EA1DD56D8B0087D7DE /* 6_1.htm */,
+				C88D90EB1DD56D8B0087D7DE /* flash */,
+				C88D91221DD56D8B0087D7DE /* index.htm */,
+				C88D91231DD56D8B0087D7DE /* main.htm */,
+				C88D91241DD56D8B0087D7DE /* 眼脑直映内容 */,
+			);
+			path = "视觉训练";
+			sourceTree = "<group>";
+		};
+		C88D90A51DD56D8B0087D7DE /* 3d */ = {
+			isa = PBXGroup;
+			children = (
+				C88D90A61DD56D8B0087D7DE /* 1.jpg */,
+				C88D90A71DD56D8B0087D7DE /* 10.jpg */,
+				C88D90A81DD56D8B0087D7DE /* 11.jpg */,
+				C88D90A91DD56D8B0087D7DE /* 12.jpg */,
+				C88D90AA1DD56D8B0087D7DE /* 13.jpg */,
+				C88D90AB1DD56D8B0087D7DE /* 14.jpg */,
+				C88D90AC1DD56D8B0087D7DE /* 15.jpg */,
+				C88D90AD1DD56D8B0087D7DE /* 16.jpg */,
+				C88D90AE1DD56D8B0087D7DE /* 17.jpg */,
+				C88D90AF1DD56D8B0087D7DE /* 18.jpg */,
+				C88D90B01DD56D8B0087D7DE /* 19.jpg */,
+				C88D90B11DD56D8B0087D7DE /* 2.jpg */,
+				C88D90B21DD56D8B0087D7DE /* 20.jpg */,
+				C88D90B31DD56D8B0087D7DE /* 21.jpg */,
+				C88D90B41DD56D8B0087D7DE /* 22.jpg */,
+				C88D90B51DD56D8B0087D7DE /* 23.jpg */,
+				C88D90B61DD56D8B0087D7DE /* 24.jpg */,
+				C88D90B71DD56D8B0087D7DE /* 25.jpg */,
+				C88D90B81DD56D8B0087D7DE /* 26.jpg */,
+				C88D90B91DD56D8B0087D7DE /* 27.jpg */,
+				C88D90BA1DD56D8B0087D7DE /* 28.jpg */,
+				C88D90BB1DD56D8B0087D7DE /* 29.jpg */,
+				C88D90BC1DD56D8B0087D7DE /* 3.jpg */,
+				C88D90BD1DD56D8B0087D7DE /* 30.jpg */,
+				C88D90BE1DD56D8B0087D7DE /* 3dmax-1.htm */,
+				C88D90BF1DD56D8B0087D7DE /* 3dmax-10.htm */,
+				C88D90C01DD56D8B0087D7DE /* 3dmax-11.htm */,
+				C88D90C11DD56D8B0087D7DE /* 3dmax-12.htm */,
+				C88D90C21DD56D8B0087D7DE /* 3dmax-13.htm */,
+				C88D90C31DD56D8B0087D7DE /* 3dmax-14.htm */,
+				C88D90C41DD56D8B0087D7DE /* 3dmax-15.htm */,
+				C88D90C51DD56D8B0087D7DE /* 3dmax-16.htm */,
+				C88D90C61DD56D8B0087D7DE /* 3dmax-17.htm */,
+				C88D90C71DD56D8B0087D7DE /* 3dmax-18.htm */,
+				C88D90C81DD56D8B0087D7DE /* 3dmax-19.htm */,
+				C88D90C91DD56D8B0087D7DE /* 3dmax-2.htm */,
+				C88D90CA1DD56D8B0087D7DE /* 3dmax-20.htm */,
+				C88D90CB1DD56D8B0087D7DE /* 3dmax-21.htm */,
+				C88D90CC1DD56D8B0087D7DE /* 3dmax-22.htm */,
+				C88D90CD1DD56D8B0087D7DE /* 3dmax-23.htm */,
+				C88D90CE1DD56D8B0087D7DE /* 3dmax-24.htm */,
+				C88D90CF1DD56D8B0087D7DE /* 3dmax-25.htm */,
+				C88D90D01DD56D8B0087D7DE /* 3dmax-26.htm */,
+				C88D90D11DD56D8B0087D7DE /* 3dmax-27.htm */,
+				C88D90D21DD56D8B0087D7DE /* 3dmax-28.htm */,
+				C88D90D31DD56D8B0087D7DE /* 3dmax-29.htm */,
+				C88D90D41DD56D8B0087D7DE /* 3dmax-3.htm */,
+				C88D90D51DD56D8B0087D7DE /* 3dmax-30.htm */,
+				C88D90D61DD56D8B0087D7DE /* 3dmax-4.htm */,
+				C88D90D71DD56D8B0087D7DE /* 3dmax-5.htm */,
+				C88D90D81DD56D8B0087D7DE /* 3dmax-6.htm */,
+				C88D90D91DD56D8B0087D7DE /* 3dmax-7.htm */,
+				C88D90DA1DD56D8B0087D7DE /* 3dmax-8.htm */,
+				C88D90DB1DD56D8B0087D7DE /* 3dmax-9.htm */,
+				C88D90DC1DD56D8B0087D7DE /* 4.jpg */,
+				C88D90DD1DD56D8B0087D7DE /* 5.jpg */,
+				C88D90DE1DD56D8B0087D7DE /* 6.jpg */,
+				C88D90DF1DD56D8B0087D7DE /* 7.jpg */,
+				C88D90E01DD56D8B0087D7DE /* 8.jpg */,
+				C88D90E11DD56D8B0087D7DE /* 9.jpg */,
+			);
+			path = 3d;
+			sourceTree = "<group>";
+		};
+		C88D90EB1DD56D8B0087D7DE /* flash */ = {
+			isa = PBXGroup;
+			children = (
+				C88D90EC1DD56D8B0087D7DE /* 一点凝视训练1.exe */,
+				C88D90ED1DD56D8B0087D7DE /* 扩大视幅训练2.exe */,
+				C88D90EE1DD56D8B0087D7DE /* 扩大视幅训练3.exe */,
+				C88D90EF1DD56D8B0087D7DE /* 扩大视野1.exe */,
+				C88D90F01DD56D8B0087D7DE /* 扩大视野2-del.exe */,
+				C88D90F11DD56D8B0087D7DE /* 扩大视野横向.exe */,
+				C88D90F21DD56D8B0087D7DE /* 扩大视野纵向.exe */,
+				C88D90F31DD56D8B0087D7DE /* 横向快速移动训练.exe */,
+				C88D90F41DD56D8B0087D7DE /* 眼球训练1单圆.exe */,
+				C88D90F51DD56D8B0087D7DE /* 眼球训练2双圆.exe */,
+				C88D90F61DD56D8B0087D7DE /* 眼球训练3圆滑曲线.exe */,
+				C88D90F71DD56D8B0087D7DE /* 眼球训练3斜.exe */,
+				C88D90F81DD56D8B0087D7DE /* 纵向快速移动训练.exe */,
+				C88D90F91DD56D8B0087D7DE /* 舒尔特表1.exe */,
+				C88D90FA1DD56D8B0087D7DE /* 舒尔特表2.exe */,
+				C88D90FB1DD56D8B0087D7DE /* 舒尔特表3.exe */,
+			);
+			path = flash;
+			sourceTree = "<group>";
+		};
+		C88D91241DD56D8B0087D7DE /* 眼脑直映内容 */ = {
+			isa = PBXGroup;
+			children = (
+				C88D91251DD56D8B0087D7DE /* 一分钟阅读记忆训练.ppt */,
+				C88D91261DD56D8B0087D7DE /* 你应该知道的世界名著.ppt */,
+				C88D91271DD56D8B0087D7DE /* 哲理小故事.ppt */,
+				C88D91281DD56D8B0087D7DE /* 应该知道的史书（部分）.ppt */,
+				C88D91291DD56D8B0087D7DE /* 最新眼脑直眏.ppt */,
+				C88D912A1DD56D8B0087D7DE /* 眼脑直影训练.ppt */,
+				C88D912B1DD56D8B0087D7DE /* 请说出科普作者及国籍.ppt */,
+			);
+			path = "眼脑直映内容";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -314,21 +732,148 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C88D915D1DD56D8B0087D7DE /* 25.jpg in Resources */,
+				C88D91761DD56D8B0087D7DE /* 3dmax-26.htm in Resources */,
+				C88D91841DD56D8B0087D7DE /* 6.jpg in Resources */,
+				C88D916B1DD56D8B0087D7DE /* 3dmax-16.htm in Resources */,
+				C88D914B1DD56D8B0087D7DE /* 3_2_max.htm in Resources */,
+				C88D91471DD56D8B0087D7DE /* 2_2.htm in Resources */,
+				C88D914F1DD56D8B0087D7DE /* 12.jpg in Resources */,
+				C88D91871DD56D8B0087D7DE /* 9.jpg in Resources */,
+				C88D916F1DD56D8B0087D7DE /* 3dmax-2.htm in Resources */,
+				C88D912D1DD56D8B0087D7DE /* 1_1.htm in Resources */,
+				C88D91621DD56D8B0087D7DE /* 3.jpg in Resources */,
+				C88D913C1DD56D8B0087D7DE /* 1_3_max6.htm in Resources */,
+				C88D91771DD56D8B0087D7DE /* 3dmax-27.htm in Resources */,
+				C88D91691DD56D8B0087D7DE /* 3dmax-14.htm in Resources */,
+				C88D919A1DD56D8B0087D7DE /* 眼球训练2双圆.exe in Resources */,
+				C88D91931DD56D8B0087D7DE /* 扩大视幅训练3.exe in Resources */,
+				C88D915B1DD56D8B0087D7DE /* 23.jpg in Resources */,
+				C88D91861DD56D8B0087D7DE /* 8.jpg in Resources */,
+				C88D917F1DD56D8B0087D7DE /* 3dmax-7.htm in Resources */,
+				C88D91391DD56D8B0087D7DE /* 1_3_max3.htm in Resources */,
+				C88D91681DD56D8B0087D7DE /* 3dmax-13.htm in Resources */,
+				C88D91C71DD56D8B0087D7DE /* 一分钟阅读记忆训练.ppt in Resources */,
+				C88D91811DD56D8B0087D7DE /* 3dmax-9.htm in Resources */,
 				C88D90801DD568010087D7DE /* 错误.jpg in Resources */,
+				C88D91C91DD56D8B0087D7DE /* 哲理小故事.ppt in Resources */,
+				C88D919D1DD56D8B0087D7DE /* 纵向快速移动训练.exe in Resources */,
+				C88D91331DD56D8B0087D7DE /* 1_3.htm in Resources */,
+				C88D918F1DD56D8B0087D7DE /* 5_3.htm in Resources */,
 				6D21615B1DC8C9EB00015167 /* LaunchScreen.storyboard in Resources */,
+				C88D91351DD56D8B0087D7DE /* 1_3_max10.htm in Resources */,
+				C88D918E1DD56D8B0087D7DE /* 5_2.htm in Resources */,
+				C88D91641DD56D8B0087D7DE /* 3dmax-1.htm in Resources */,
+				C88D91591DD56D8B0087D7DE /* 21.jpg in Resources */,
+				C88D91751DD56D8B0087D7DE /* 3dmax-25.htm in Resources */,
+				C88D91C81DD56D8B0087D7DE /* 你应该知道的世界名著.ppt in Resources */,
+				C88D91C61DD56D8B0087D7DE /* main.htm in Resources */,
+				C88D91821DD56D8B0087D7DE /* 4.jpg in Resources */,
+				C88D91731DD56D8B0087D7DE /* 3dmax-23.htm in Resources */,
+				C88D91341DD56D8B0087D7DE /* 1_3_max1.htm in Resources */,
+				C88D913A1DD56D8B0087D7DE /* 1_3_max4.htm in Resources */,
+				C88D91451DD56D8B0087D7DE /* 1_5.htm in Resources */,
+				C88D916C1DD56D8B0087D7DE /* 3dmax-17.htm in Resources */,
+				C88D91501DD56D8B0087D7DE /* 13.jpg in Resources */,
+				C88D915E1DD56D8B0087D7DE /* 26.jpg in Resources */,
+				C88D91311DD56D8B0087D7DE /* 1_2_max2.htm in Resources */,
 				C83DBC631DCD711A00CF29C0 /* Images.xcassets in Resources */,
+				C88D915F1DD56D8B0087D7DE /* 27.jpg in Resources */,
 				C83DBCF11DD31B5800CF29C0 /* db1.sqlite in Resources */,
+				C88D91551DD56D8B0087D7DE /* 18.jpg in Resources */,
+				C88D914E1DD56D8B0087D7DE /* 11.jpg in Resources */,
+				C88D91701DD56D8B0087D7DE /* 3dmax-20.htm in Resources */,
+				C88D914D1DD56D8B0087D7DE /* 10.jpg in Resources */,
+				C88D91721DD56D8B0087D7DE /* 3dmax-22.htm in Resources */,
+				C88D916E1DD56D8B0087D7DE /* 3dmax-19.htm in Resources */,
+				C88D91371DD56D8B0087D7DE /* 1_3_max12.htm in Resources */,
+				C88D912C1DD56D8B0087D7DE /* 1_1 - 复制.htm in Resources */,
+				C88D91661DD56D8B0087D7DE /* 3dmax-11.htm in Resources */,
+				C88D914A1DD56D8B0087D7DE /* 3_2.htm in Resources */,
+				C88D91571DD56D8B0087D7DE /* 2.jpg in Resources */,
+				C88D91901DD56D8B0087D7DE /* 6_1.htm in Resources */,
 				C83DBC801DCD855600CF29C0 /* home_icon_cebianlan_selected.png in Resources */,
+				C88D916D1DD56D8B0087D7DE /* 3dmax-18.htm in Resources */,
+				C88D91711DD56D8B0087D7DE /* 3dmax-21.htm in Resources */,
+				C88D915C1DD56D8B0087D7DE /* 24.jpg in Resources */,
+				C88D918C1DD56D8B0087D7DE /* 4_5.htm in Resources */,
+				C88D91881DD56D8B0087D7DE /* 4_1.htm in Resources */,
+				C88D91301DD56D8B0087D7DE /* 1_2_max1.htm in Resources */,
+				C88D916A1DD56D8B0087D7DE /* 3dmax-15.htm in Resources */,
+				C88D91611DD56D8B0087D7DE /* 29.jpg in Resources */,
+				C88D91801DD56D8B0087D7DE /* 3dmax-8.htm in Resources */,
+				C88D91381DD56D8B0087D7DE /* 1_3_max2.htm in Resources */,
+				C88D914C1DD56D8B0087D7DE /* 1.jpg in Resources */,
+				C88D91911DD56D8B0087D7DE /* 一点凝视训练1.exe in Resources */,
 				C83DBCF21DD31B5800CF29C0 /* DBConfig.plist in Resources */,
+				C88D91411DD56D8B0087D7DE /* 1_4_max1.htm in Resources */,
+				C88D917D1DD56D8B0087D7DE /* 3dmax-5.htm in Resources */,
+				C88D91941DD56D8B0087D7DE /* 扩大视野1.exe in Resources */,
+				C88D91781DD56D8B0087D7DE /* 3dmax-28.htm in Resources */,
+				C88D91981DD56D8B0087D7DE /* 横向快速移动训练.exe in Resources */,
+				C88D91921DD56D8B0087D7DE /* 扩大视幅训练2.exe in Resources */,
+				C88D91401DD56D8B0087D7DE /* 1_4.htm in Resources */,
+				C88D91651DD56D8B0087D7DE /* 3dmax-10.htm in Resources */,
+				C88D91541DD56D8B0087D7DE /* 17.jpg in Resources */,
+				C88D91481DD56D8B0087D7DE /* 2_3.htm in Resources */,
 				C83DBC821DCDBE0400CF29C0 /* home_icon_cebianlan_selecte.png in Resources */,
+				C88D91CB1DD56D8B0087D7DE /* 最新眼脑直眏.ppt in Resources */,
+				C88D91321DD56D8B0087D7DE /* 1_2_max3.htm in Resources */,
+				C88D91631DD56D8B0087D7DE /* 30.jpg in Resources */,
+				C88D91581DD56D8B0087D7DE /* 20.jpg in Resources */,
+				C88D917C1DD56D8B0087D7DE /* 3dmax-4.htm in Resources */,
 				C88D907F1DD568010087D7DE /* 正确.jpg in Resources */,
+				C88D91CC1DD56D8B0087D7DE /* 眼脑直影训练.ppt in Resources */,
+				C88D919B1DD56D8B0087D7DE /* 眼球训练3圆滑曲线.exe in Resources */,
+				C88D91991DD56D8B0087D7DE /* 眼球训练1单圆.exe in Resources */,
+				C88D91601DD56D8B0087D7DE /* 28.jpg in Resources */,
+				C88D917B1DD56D8B0087D7DE /* 3dmax-30.htm in Resources */,
+				C88D91461DD56D8B0087D7DE /* 2_1.htm in Resources */,
+				C88D91791DD56D8B0087D7DE /* 3dmax-29.htm in Resources */,
+				C88D91431DD56D8B0087D7DE /* 1_4_max3.htm in Resources */,
+				C88D91CD1DD56D8B0087D7DE /* 请说出科普作者及国籍.ppt in Resources */,
+				C88D91521DD56D8B0087D7DE /* 15.jpg in Resources */,
+				C88D918B1DD56D8B0087D7DE /* 4_4.htm in Resources */,
+				C88D912F1DD56D8B0087D7DE /* 1_2.htm in Resources */,
+				C88D91961DD56D8B0087D7DE /* 扩大视野横向.exe in Resources */,
 				C83DBC7F1DCD855600CF29C0 /* home_icon_cebianlan_normal.png in Resources */,
 				C83DBCEF1DD31B5800CF29C0 /* create_load.sql in Resources */,
 				6D2161581DC8C9EB00015167 /* Assets.xcassets in Resources */,
+				C88D91531DD56D8B0087D7DE /* 16.jpg in Resources */,
+				C88D918A1DD56D8B0087D7DE /* 4_3.htm in Resources */,
+				C88D91511DD56D8B0087D7DE /* 14.jpg in Resources */,
+				C88D91951DD56D8B0087D7DE /* 扩大视野2-del.exe in Resources */,
+				C88D91361DD56D8B0087D7DE /* 1_3_max11.htm in Resources */,
 				C83DBC791DCD7CD900CF29C0 /* profile.png in Resources */,
+				C88D91671DD56D8B0087D7DE /* 3dmax-12.htm in Resources */,
+				C88D91CF1DD56FA30087D7DE /* images in Resources */,
+				C88D91851DD56D8B0087D7DE /* 7.jpg in Resources */,
+				C88D91831DD56D8B0087D7DE /* 5.jpg in Resources */,
+				C88D913F1DD56D8B0087D7DE /* 1_3_max9.htm in Resources */,
+				C88D91891DD56D8B0087D7DE /* 4_2.htm in Resources */,
+				C88D91C51DD56D8B0087D7DE /* index.htm in Resources */,
+				C88D91741DD56D8B0087D7DE /* 3dmax-24.htm in Resources */,
+				C88D91561DD56D8B0087D7DE /* 19.jpg in Resources */,
+				C88D918D1DD56D8B0087D7DE /* 5_1.htm in Resources */,
+				C88D913E1DD56D8B0087D7DE /* 1_3_max8.htm in Resources */,
+				C88D91441DD56D8B0087D7DE /* 1_4_max4.htm in Resources */,
+				C88D913B1DD56D8B0087D7DE /* 1_3_max5.htm in Resources */,
+				C88D919F1DD56D8B0087D7DE /* 舒尔特表2.exe in Resources */,
+				C88D917A1DD56D8B0087D7DE /* 3dmax-3.htm in Resources */,
+				C88D91421DD56D8B0087D7DE /* 1_4_max2.htm in Resources */,
 				C83DBCF01DD31B5800CF29C0 /* db1.sql in Resources */,
 				6D2161561DC8C9EB00015167 /* Main.storyboard in Resources */,
+				C88D919C1DD56D8B0087D7DE /* 眼球训练3斜.exe in Resources */,
+				C88D91A01DD56D8B0087D7DE /* 舒尔特表3.exe in Resources */,
+				C88D91CA1DD56D8B0087D7DE /* 应该知道的史书（部分）.ppt in Resources */,
+				C88D912E1DD56D8B0087D7DE /* 1_1_max.htm in Resources */,
+				C88D91491DD56D8B0087D7DE /* 3_1.htm in Resources */,
+				C88D917E1DD56D8B0087D7DE /* 3dmax-6.htm in Resources */,
+				C88D91971DD56D8B0087D7DE /* 扩大视野纵向.exe in Resources */,
+				C88D915A1DD56D8B0087D7DE /* 22.jpg in Resources */,
+				C88D913D1DD56D8B0087D7DE /* 1_3_max7.htm in Resources */,
 				C82185DD1DD43F0E0094128F /* TestQuestionViewController.xib in Resources */,
+				C88D919E1DD56D8B0087D7DE /* 舒尔特表1.exe in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +885,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C83DBC731DCD755D00CF29C0 /* iOSLogEngine.mm in Sources */,
+				C88D90831DD56A470087D7DE /* VisualTrainViewController.m in Sources */,
 				C83DBC691DCD726900CF29C0 /* ReadTrainTableViewController.m in Sources */,
 				C83DBC601DCD711A00CF29C0 /* DEMOLeftMenuViewController.m in Sources */,
 				C83DBC7C1DCD84EE00CF29C0 /* UICommon.m in Sources */,

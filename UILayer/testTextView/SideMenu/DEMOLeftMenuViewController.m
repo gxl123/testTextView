@@ -14,6 +14,7 @@
 #import "ReadTrainTableViewController.h"
 #import "ReadTestTableViewController.h"
 #import "AboutTableViewController.h"
+#import "VisualTrainViewController.h"
 @interface DEMOLeftMenuViewController (){
     NSArray *_arrTitles;
     NSArray *_arrImages;
@@ -101,11 +102,10 @@
 }
 
 -(void) toRemoteRecordController:(id)sender{
-    ReadTrainTableViewController* controller=[[ReadTrainTableViewController alloc]initWithStyle:UITableViewStylePlain];
+    VisualTrainViewController* controller=[[VisualTrainViewController alloc]init];
     UINavigationController *nav=[[UINavigationController alloc] initWithRootViewController:controller];
     [self.sideMenuViewController setContentViewController:nav animated:YES];
     [self.sideMenuViewController hideMenuViewController];
-
 }
 
 -(void) toAboutController:(id)sender{
