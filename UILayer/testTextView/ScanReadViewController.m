@@ -61,7 +61,8 @@
         NSLog(@"i=%d %@,rect0=%f %f %f %f  rect2=%f %f %f %f",i,[tv.text substringWithRange:range],
               rect0.origin.x,rect0.origin.y,rect0.size.width,rect0.size.height,
               rect2.origin.x,rect2.origin.y,rect2.size.width,rect2.size.height);
-        if (rect2.origin.y-rect0.origin.y>1) {
+        if ((rect2.origin.y-rect0.origin.y>1)&&(rect2.origin.y-rect0.origin.y<999))
+        {
             NSUInteger locF=MAX(0,(int)(i-count_thisline+1));
             //此行的最后一个字符
             if(aveCountAline==0){
@@ -80,7 +81,7 @@
                 NSLog(@"test");
             }
             //将每半行区间插入数组中
-            NSUInteger lenF=aveHalfCountALine;
+            NSUInteger lenF=MIN(aveHalfCountALine,count_thisline);
             NSUInteger locL=locF+aveHalfCountALine;
             NSUInteger lenL=MAX(0, (int)(count_thisline-lenF));
             NSRange rangeF= NSMakeRange(locF, lenF);
@@ -113,9 +114,34 @@
     [_tvArticle.textStorage endEditing];
     _nTick++;
 }
+
+-(void)updateProgress2{
+   // CGAffineTransform t= CGAffineTransformMakeTranslation (_tvArticle.frame.origin.x , 1);
+   // _tvArticle.transform=t;
+   //      _tvArticle.transform = CGAffineTransformMakeTranslation(10.0f, 0.0f);
+    
+//    [UIView animateWithDuration:0.5 animations:^{
+    
+    _tvArticle.transform = CGAffineTransformMakeTranslation(0, _nTick%2==0?100:30);
+    
+//    } completion:^(BOOL finished) {
+//        
+//        [UIView animateWithDuration:0.5 animations:^{
+//            
+//            _tvArticle.transform = CGAffineTransformMakeTranslation(0, 30);
+//            
+//            
+//        } completion:^(BOOL finished) {
+//            
+//        }];
+//        
+//        
+//    }];
+    _nTick++;
+}
 -(NSTimer *)timer{
     if (!_timer) {
-        _timer=[NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(updateProgress) userInfo:nil repeats:true];
+        _timer=[NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(updateProgress2) userInfo:nil repeats:true];
     }
     return _timer;
 }
